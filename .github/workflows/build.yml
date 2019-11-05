@@ -15,6 +15,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
+      with:
+        ref: ${GITHUB_REF}
     - name: Install PHP
       uses: shivammathur/setup-php@master
       with:
