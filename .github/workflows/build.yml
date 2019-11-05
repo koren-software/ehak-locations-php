@@ -19,7 +19,7 @@ jobs:
       uses: shivammathur/setup-php@master
       with:
         php-version: ${{ matrix.php-versions }}
-        extension-csv: dom
+        extension-csv: dom,mbstring
         coverage: xdebug
     - name: Install dependencies
       run: composer install --prefer-dist --no-interaction
