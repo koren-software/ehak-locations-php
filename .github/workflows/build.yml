@@ -19,6 +19,8 @@ jobs:
       uses: shivammathur/setup-php@master
       with:
         php-version: ${{ matrix.php-versions }}
+        extension-csv: dom
+        coverage: xdebug
     - name: Install dependencies
       run: composer install --prefer-dist --no-interaction
     - name: PHP Code Sniffer
