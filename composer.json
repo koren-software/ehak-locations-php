@@ -1,0 +1,40 @@
+{
+    "name": "koren-software/ehak-locations-php",
+    "description": "PHP Library to convert location into EHAK classification code and vice-versa",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rene Korss",
+            "email": "rene@koren.ee",
+            "homepage": "https://koren.ee",
+            "role": "Developer"
+        }
+    ],
+    "scripts": {
+        "build": [
+            "@format",
+            "@tests",
+            "@phpcs"
+        ],
+        "tests": "./vendor/bin/phpunit",
+        "coverage": "./vendor/bin/phpunit --coverage-html ./tests/coverage",
+        "format": "./vendor/bin/php-cs-fixer fix",
+        "phpcs": "./vendor/bin/phpcs --standard=PSR2 --ignore=vendor,src/data -s ./src"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koren\\EHAK\\": "src"
+        }
+    },
+    "config": {
+      "optimize-autoloader": true
+    }
+}
