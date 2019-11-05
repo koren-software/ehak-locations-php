@@ -27,7 +27,11 @@ jobs:
       if: matrix.php-versions == '7.2'
       run: composer phpcs
     - name: PHP Unit Tests
+      if: matrix.php-versions != '7.2'
       run: composer test
+    - name: PHP Unit Tests with coverage
+      if: matrix.php-versions == '7.2'
+      run: vendor/bin/phpunit --coverage-clover build/logs/clover.xml
     - name: Send to coveralls
       if: matrix.php-versions == '7.2'
       run: php vendor/bin/php-coveralls -v
