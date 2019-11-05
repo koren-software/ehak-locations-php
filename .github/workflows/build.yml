@@ -15,8 +15,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-      with:
-        ref: ${{ GITHUB_REF }}
+    # Avoid detached HEAD for coveralls
+    - name: Checkout current branch
+      run: git checkout "${GITHUB_REF:11}"
     - name: Install PHP
       uses: shivammathur/setup-php@master
       with:
