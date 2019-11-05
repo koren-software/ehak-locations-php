@@ -30,7 +30,13 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-interaction
     - name: PHP Code Sniffer
-      if: matrix.php-versions == '7.3'
+      if: matrix.php-versions == '7.2'
       run: composer phpcs
     - name: PHP Unit Tests
       run: composer test
+    - name: Send to coveralls
+      if: matrix.php-versions == '7.2'
+      run: php vendor/bin/php-coveralls -v
+      env:
+        COVERALLS_RUN_LOCALLY: 1
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
