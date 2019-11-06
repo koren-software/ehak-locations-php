@@ -1,5 +1,5 @@
 {
-    "name": "koren-software/ehak-locations-php",
+    "name": "koren-software/ehak-locations",
     "description": "PHP Library to convert location into EHAK classification code and vice-versa",
     "type": "library",
     "license": "MIT",
