@@ -89,6 +89,13 @@ class EHAKTest extends TestCase
         $this->assertEquals('Haabersti linnaosa', $this->ehak->getLocation(EHAK::CITY_DISTRICTS, '0784', '0176'));
     }
 
+    public function testCanGetFullLocationByCode()
+    {
+        $this->assertEquals([
+            
+        ], $this->ehak->getFullLocation('1088'));
+    }
+
     public function testUnknownResults()
     {
         $this->assertEquals('unknown', $this->ehak->getLocation(EHAK::COUNTIES, '1', '1'));

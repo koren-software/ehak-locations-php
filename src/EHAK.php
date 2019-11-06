@@ -103,4 +103,36 @@ class EHAK
 
         return 'unknown';
     }
+
+    /**
+     * Get full location from EHAK code
+     *
+     * @param string $ehakCode
+     * 
+     * @return array
+     */
+    public function getFullLocation(string $ehakCode) : array
+    {
+        $searchKeys = [
+            self::COUNTIES,
+            self::CITIES,
+            self::CITY_DISTRICTS,
+            self::PARISHES,
+            self::VILLAGES,
+        ];
+
+        foreach ($searchKeys as $searchKey) {
+            foreach ($this->data[$searchKey] as $item) {
+
+            }
+        }
+
+        return [
+            self::COUNTIES => '',
+            self::CITIES => '',
+            self::CITY_DISTRICTS => '',
+            self::PARISHES => '',
+            self::VILLAGES => '',
+        ];
+    }
 }
