@@ -47,14 +47,14 @@ if (!defined('TYPE_STR')) {
  */
 function type($item) {
     $types = [
-        0 => 'county',
-        1 => 'parishes',
-        3 => 'villages',
-        4 => 'cities',
-        5 => 'villages',
-        6 => 'city_districts',
-        7 => 'villages',
-        8 => 'villages',
+        0 => EHAK::COUNTIES,
+        1 => EHAK::PARISHES,
+        3 => EHAK::VILLAGES,
+        4 => EHAK::CITIES,
+        5 => EHAK::VILLAGES,
+        6 => EHAK::CITY_DISTRICTS,
+        7 => EHAK::VILLAGES,
+        8 => EHAK::VILLAGES,
     ];
 
     // Remove type string
@@ -110,7 +110,7 @@ if (isset($xml->Classification->Item)) {
     foreach ($xml->Classification->Item as $county) {
         $countyId = (string)$county->attributes()->id;
         $counties['EST'][] = [$countyId, label($county)];
-        $counties[1][] = [$countyId, label($county)];
+        $counties['1'][] = [$countyId, label($county)];
 
         debug($county->Label->LabelText);
 

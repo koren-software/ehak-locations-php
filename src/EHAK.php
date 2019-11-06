@@ -57,14 +57,14 @@ class EHAK
     /**
      * Get code from array name and location name
      *
-     * @return string
+     * @return string|null
      */
-    public function getCode(string $arrayName, string $parentCode, string $locationName) : string
+    public function getCode(string $arrayName, string $parentCode, string $locationName) : ?string
     {
         if (!isset($this->data[$arrayName]) ||
             !isset($this->data[$arrayName][$parentCode])
         ) {
-            return 'unknown';
+            return null;
         }
 
         $data = $this->data[$arrayName][$parentCode];
@@ -76,20 +76,20 @@ class EHAK
             }
         }
 
-        return 'unknown';
+        return null;
     }
 
     /**
      * Get location from  array name and code
      *
-     * @return string
+     * @return string|null
      */
-    public function getLocation(string $arrayName, string $parentCode, string $locationCode) : string
+    public function getLocation(string $arrayName, string $parentCode, string $locationCode) : ?string
     {
         if (!isset($this->data[$arrayName]) ||
             !isset($this->data[$arrayName][$parentCode])
         ) {
-            return 'unknown';
+            return null;
         }
 
         $data = $this->data[$arrayName][$parentCode];
@@ -101,38 +101,118 @@ class EHAK
             }
         }
 
-        return 'unknown';
+        return null;
     }
 
     /**
      * Get full location from EHAK code
      *
      * @param string $ehakCode
-     * 
-     * @return array
+     *
+     * @return array|null
      */
-    public function getFullLocation(string $ehakCode) : array
+    public function getFullLocation(string $ehakCode) : ?array
     {
-        $searchKeys = [
-            self::COUNTIES,
-            self::CITIES,
-            self::CITY_DISTRICTS,
-            self::PARISHES,
-            self::VILLAGES,
-        ];
-
-        foreach ($searchKeys as $searchKey) {
-            foreach ($this->data[$searchKey] as $item) {
-
-            }
-        }
-
-        return [
+        $location = [
             self::COUNTIES => '',
             self::CITIES => '',
             self::CITY_DISTRICTS => '',
             self::PARISHES => '',
             self::VILLAGES => '',
         ];
+
+        $parentKeys = [];
+        $found = false;
+        $parentSearchKey = null;
+
+        foreach (array_keys($location) as $searchKey) {
+            foreach ($this->data[$searchKey] as $parentKey => $item) {
+                foreach ($item as $parentCode => $child) {
+                    if ($child[0] === $ehakCode) {
+                        $location[$searchKey] = $child[1];
+                        $found = true;
+                        break;
+                    }
+                }
+
+                if ($found && $searchKey !== self::COUNTIES) {
+                    switch ($searchKey) {
+                        case self::VILLAGES:
+                            $parentSearchKey = self::PARISHES;
+                            $parentKeys[$parentSearchKey] = $parentKey;
+                            break;
+                        case self::CITY_DISTRICTS:
+                            $parentSearchKey = self::CITIES;
+                            $parentKeys[$parentSearchKey] = $parentKey;
+                            break;
+                        default:
+                            // Nothing
+                            break;
+                    }
+
+                    break;
+                }
+            }
+
+            // Add city or parish
+            if ($found && $parentSearchKey) {
+                foreach ($this->data[$parentSearchKey] as $parentCode => $childs) {
+                    foreach ($childs as $child) {
+                        if ($child[0] === $parentKey) {
+                            $location[$parentSearchKey] = $child[1];
+                            $parentKey = $parentCode;
+                        }
+                    }
+                }
+            }
+
+            // Add county
+            if ($found) {
+                // If searchable is county
+                if ((int)$parentKey === 1 || $parentKey === 'EST') {
+                    $parentKey = $ehakCode;
+                }
+
+                // County is always parent
+                $location[self::COUNTIES] = self::getLocation(self::COUNTIES, '1', $parentKey);
+                break;
+            }
+        }
+
+        if (!$found) {
+            return null;
+        }
+
+        return $location;
+    }
+    
+    /**
+     * Undocumented function
+     *
+     * @param array $location
+     * @return string|null
+     */
+    public function getCodeFromFullLocation(array $location) : ?string
+    {
+        if (empty($location)) {
+            return null;
+        }
+
+        // Make sure it's in correct order
+        // Remove empty values
+        $orderedLocation = array_filter([
+            self::COUNTIES => $location[self::COUNTIES] ?? null,
+            self::CITIES => $location[self::CITIES] ?? null,
+            self::CITY_DISTRICTS => $location[self::CITY_DISTRICTS] ?? null,
+            self::PARISHES => $location[self::PARISHES] ?? null,
+            self::VILLAGES => $location[self::VILLAGES] ?? null,
+        ]);
+        
+        $parentCode = '1';
+        foreach ($orderedLocation as $locationKey => $locationName) {
+            $parentCode = self::getCode($locationKey, (string)$parentCode, (string)$locationName);
+        }
+
+        return $parentCode;
     }
 }
