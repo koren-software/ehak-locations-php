@@ -11,13 +11,15 @@
 # Install
 
 ```shell
-composer require koren-software/ehak-locations-php
+composer require koren-software/ehak-locations
 ```
 
 ## Usage
 
 ```php
-$ehak = new \Koren\EHAK\EHAK(); // init EHAK instance on latest data
+use \Koren\EHAK\EHAK;
+
+$ehak = new EHAK(); // init EHAK instance on latest data
 
 // Get EHAK code from location
 $countyCode = $ehak->getCode(EHAK::COUNTIES, 'EST', 'Harju maakond'); // 0037
@@ -36,6 +38,27 @@ $ehak->getLocation(EHAK::CITY_DISTRICTS, '0784', '0176'); // Haabersti linnaosa
 
 $ehak->getLocation(EHAK::PARISHES, '0037', '0141'); // Anija vald
 $ehak->getLocation(EHAK::VILLAGES, '0141', '1088'); // Aegviidu alev
+
+// Get full location from EHAK code
+$ehak->getFullLocation('0176');
+
+//Gives: 
+[
+    'counties' => 'Harju maakond',
+    'cities' => 'Tallinn',
+    'city_districts' => 'Haabersti linnaosa',
+    'parishes' => '',
+    'villages' => '',
+]
+
+// Get code from full location
+$ehak->getCodeFromFullLocation([
+    EHAK::COUNTIES => 'Harju maakond',
+    EHAK::CITIES => 'Tallinn',
+    EHAK::CITY_DISTRICTS => 'Haabersti linnaosa',
+    EHAK::PARISHES => '',
+    EHAK::VILLAGES => '',
+]); // 0176
 ```
 
 ## Development

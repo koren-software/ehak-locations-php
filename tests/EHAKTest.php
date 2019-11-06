@@ -89,18 +89,119 @@ class EHAKTest extends TestCase
         $this->assertEquals('Haabersti linnaosa', $this->ehak->getLocation(EHAK::CITY_DISTRICTS, '0784', '0176'));
     }
 
+    public function testCanGetFullLocationByVillageCode()
+    {
+        $this->assertEquals([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => '',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => 'Anija vald',
+            EHAK::VILLAGES => 'Aegviidu alev',
+        ], $this->ehak->getFullLocation('1088'));
+    }
+
+    public function testCanGetFullLocationByCityDistrictCode()
+    {
+        $this->assertEquals([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => 'Tallinn',
+            EHAK::CITY_DISTRICTS => 'Haabersti linnaosa',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ], $this->ehak->getFullLocation('0176'));
+    }
+
+    public function testCanGetCodeFromFullLocation()
+    {
+        $this->assertEquals('0176', $this->ehak->getCodeFromFullLocation([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => 'Tallinn',
+            EHAK::CITY_DISTRICTS => 'Haabersti linnaosa',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ]));
+
+        $this->assertEquals('0784', $this->ehak->getCodeFromFullLocation([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => 'Tallinn',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ]));
+
+        $this->assertEquals('0141', $this->ehak->getCodeFromFullLocation([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => '',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => 'Anija vald',
+            EHAK::VILLAGES => '',
+        ]));
+
+        $this->assertEquals('0037', $this->ehak->getCodeFromFullLocation([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => '',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ]));
+
+        $this->assertEquals(null, $this->ehak->getCodeFromFullLocation([]));
+        $this->assertEquals(null, $this->ehak->getCodeFromFullLocation([
+            EHAK::COUNTIES => 'Random county',
+            EHAK::CITIES => 'Random city',
+            EHAK::CITY_DISTRICTS => 'Random city district',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ]));
+    }
+
+    public function testCanGetFullLocationByCityCode()
+    {
+        $this->assertEquals([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => 'Tallinn',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ], $this->ehak->getFullLocation('0784'));
+    }
+
+    public function testCanGetFullLocationByParishCode()
+    {
+        $this->assertEquals([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => '',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => 'Anija vald',
+            EHAK::VILLAGES => '',
+        ], $this->ehak->getFullLocation('0141'));
+    }
+
+    public function testCanGetFullLocationByCountyCode()
+    {
+        $this->assertEquals([
+            EHAK::COUNTIES => 'Harju maakond',
+            EHAK::CITIES => '',
+            EHAK::CITY_DISTRICTS => '',
+            EHAK::PARISHES => '',
+            EHAK::VILLAGES => '',
+        ], $this->ehak->getFullLocation('0037'));
+    }
+
     public function testUnknownResults()
     {
-        $this->assertEquals('unknown', $this->ehak->getLocation(EHAK::COUNTIES, '1', '1'));
-        $this->assertEquals('unknown', $this->ehak->getLocation(EHAK::CITIES, '1', '1'));
-        $this->assertEquals('unknown', $this->ehak->getLocation(EHAK::PARISHES, '1', '1'));
-        $this->assertEquals('unknown', $this->ehak->getLocation(EHAK::VILLAGES, '1', '1'));
-        $this->assertEquals('unknown', $this->ehak->getLocation(EHAK::CITY_DISTRICTS, '1', '1'));
+        $this->assertEquals(null, $this->ehak->getLocation(EHAK::COUNTIES, '1', '1'));
+        $this->assertEquals(null, $this->ehak->getLocation(EHAK::CITIES, '1', '1'));
+        $this->assertEquals(null, $this->ehak->getLocation(EHAK::PARISHES, '1', '1'));
+        $this->assertEquals(null, $this->ehak->getLocation(EHAK::VILLAGES, '1', '1'));
+        $this->assertEquals(null, $this->ehak->getLocation(EHAK::CITY_DISTRICTS, '1', '1'));
 
-        $this->assertEquals('unknown', $this->ehak->getCode(EHAK::COUNTIES, '1', 'Unknwon place'));
-        $this->assertEquals('unknown', $this->ehak->getCode(EHAK::CITIES, '1', 'Unknwon place'));
-        $this->assertEquals('unknown', $this->ehak->getCode(EHAK::PARISHES, '1', 'Unknwon place'));
-        $this->assertEquals('unknown', $this->ehak->getCode(EHAK::VILLAGES, '1', 'Unknwon place'));
-        $this->assertEquals('unknown', $this->ehak->getCode(EHAK::CITY_DISTRICTS, '1', 'Unknwon place'));
+        $this->assertEquals(null, $this->ehak->getCode(EHAK::COUNTIES, '1', 'Unknwon place'));
+        $this->assertEquals(null, $this->ehak->getCode(EHAK::CITIES, '1', 'Unknwon place'));
+        $this->assertEquals(null, $this->ehak->getCode(EHAK::PARISHES, '1', 'Unknwon place'));
+        $this->assertEquals(null, $this->ehak->getCode(EHAK::VILLAGES, '1', 'Unknwon place'));
+        $this->assertEquals(null, $this->ehak->getCode(EHAK::CITY_DISTRICTS, '1', 'Unknwon place'));
+
+        $this->assertEquals(null, $this->ehak->getFullLocation('nonExistingCode'));
     }
 }
