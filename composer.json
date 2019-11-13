@@ -30,7 +30,8 @@
         "php-coveralls/php-coveralls": "^2.1",
         "friendsofphp/php-cs-fixer": "^2.16",
         "squizlabs/php_codesniffer": "^3.5",
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "^8.4",
+        "cedx/coveralls": "^11.2"
     },
     "autoload": {
         "psr-4": {
