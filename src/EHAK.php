@@ -23,7 +23,7 @@ class EHAK
     /**
      * Default version to use if version is not set
      */
-    protected $version = '2019v7';
+    protected $version = '2019v8';
 
     /**
      * EHAK data
