@@ -3,7 +3,7 @@
  * Koren Software
  *
  * @author     Koren Software
- * @copyright  Copyright (c) 2019 Koren Software. (https://koren.ee)
+ * @copyright  Copyright (c) 2020 Koren Software. (https://koren.ee)
  * @license    MIT
  */
 
