@@ -68,7 +68,7 @@ $ehak->getCodeFromFullLocation([
 `src/data` directory holds different versions of EHAK data. To save new version or update old, run:
 
 ```shell
-bin/update.php --url "EHAK URL HERE"
+bin/update.php --url "EHAK XML URL HERE"
 ```
 
 #### Options
