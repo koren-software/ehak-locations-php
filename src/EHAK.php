@@ -23,7 +23,7 @@ class EHAK
     /**
      * Default version to use if version is not set
      */
-    protected $version = '2020v1';
+    protected $version = '2020v2';
 
     /**
      * EHAK data
@@ -185,7 +185,7 @@ class EHAK
 
         return $location;
     }
-    
+
     /**
      * Undocumented function
      *
@@ -207,7 +207,7 @@ class EHAK
             self::PARISHES => $location[self::PARISHES] ?? null,
             self::VILLAGES => $location[self::VILLAGES] ?? null,
         ]);
-        
+
         $parentCode = '1';
         foreach ($orderedLocation as $locationKey => $locationName) {
             $parentCode = self::getCode($locationKey, (string)$parentCode, (string)$locationName);
