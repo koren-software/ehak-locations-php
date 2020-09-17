@@ -14,7 +14,7 @@ class EHAKTest extends TestCase
 {
     /**
      * EHAK object
-     * 
+     *
      * @var \Koren\EHAK\EHAK
      */
     protected $ehak;
@@ -29,7 +29,7 @@ class EHAKTest extends TestCase
 
     public function testInitsDefaultVersion()
     {
-        $this->assertEquals('2020v1', $this->ehak->getVersion());
+        $this->assertEquals('2020v2', $this->ehak->getVersion());
     }
 
     public function testCanSetCustomVersion()
