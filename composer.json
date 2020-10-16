@@ -38,6 +38,11 @@
             "Koren\\EHAK\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Koren\\EHAK\\": "tests"
+        }
+    },
     "config": {
       "optimize-autoloader": true
     }
