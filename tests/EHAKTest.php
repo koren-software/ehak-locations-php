@@ -7,6 +7,8 @@
  * @license    MIT
  */
 
+namespace Koren\EHAK;
+
 use Koren\EHAK\EHAK;
 use PHPUnit\Framework\TestCase;
 
@@ -29,64 +31,64 @@ class EHAKTest extends TestCase
 
     public function testInitsDefaultVersion()
     {
-        $this->assertEquals('2020v2', $this->ehak->getVersion());
+        $this->assertSame('2020v2', $this->ehak->getVersion());
     }
 
     public function testCanSetCustomVersion()
     {
         $customVersionEhak = new EHAK('2019v6');
-        $this->assertEquals('2019v6', $customVersionEhak->getVersion());
+        $this->assertSame('2019v6', $customVersionEhak->getVersion());
     }
 
     public function testCanGetCountyByName()
     {
-        $this->assertEquals('0037', $this->ehak->getCode(EHAK::COUNTIES, 'EST', 'Harju maakond'));
+        $this->assertSame('0037', $this->ehak->getCode(EHAK::COUNTIES, 'EST', 'Harju maakond'));
     }
 
     public function testCanGetCountyByCode()
     {
-        $this->assertEquals('Harju maakond', $this->ehak->getLocation(EHAK::COUNTIES, '1', '0037'));
-        $this->assertEquals('Harju maakond', $this->ehak->getLocation(EHAK::COUNTIES, 'EST', '0037'));
+        $this->assertSame('Harju maakond', $this->ehak->getLocation(EHAK::COUNTIES, '1', '0037'));
+        $this->assertSame('Harju maakond', $this->ehak->getLocation(EHAK::COUNTIES, 'EST', '0037'));
     }
 
     public function testCanGetCityByName()
     {
-        $this->assertEquals('0784', $this->ehak->getCode(EHAK::CITIES, '0037', 'Tallinn'));
+        $this->assertSame('0784', $this->ehak->getCode(EHAK::CITIES, '0037', 'Tallinn'));
     }
 
     public function testCanGetCityByCode()
     {
-        $this->assertEquals('Tallinn', $this->ehak->getLocation(EHAK::CITIES, '0037', '0784'));
+        $this->assertSame('Tallinn', $this->ehak->getLocation(EHAK::CITIES, '0037', '0784'));
     }
 
     public function testCanGetParishByName()
     {
-        $this->assertEquals('0141', $this->ehak->getCode(EHAK::PARISHES, '0037', 'Anija vald'));
+        $this->assertSame('0141', $this->ehak->getCode(EHAK::PARISHES, '0037', 'Anija vald'));
     }
 
     public function testCanGetParishByCode()
     {
-        $this->assertEquals('Anija vald', $this->ehak->getLocation(EHAK::PARISHES, '0037', '0141'));
+        $this->assertSame('Anija vald', $this->ehak->getLocation(EHAK::PARISHES, '0037', '0141'));
     }
 
     public function testCanGetVillageByName()
     {
-        $this->assertEquals('1088', $this->ehak->getCode(EHAK::VILLAGES, '0141', 'Aegviidu alev'));
+        $this->assertSame('1088', $this->ehak->getCode(EHAK::VILLAGES, '0141', 'Aegviidu alev'));
     }
 
     public function testCanGetVillageByCode()
     {
-        $this->assertEquals('Aegviidu alev', $this->ehak->getLocation(EHAK::VILLAGES, '0141', '1088'));
+        $this->assertSame('Aegviidu alev', $this->ehak->getLocation(EHAK::VILLAGES, '0141', '1088'));
     }
 
     public function testCanGetCityDistrictByName()
     {
-        $this->assertEquals('0176', $this->ehak->getCode(EHAK::CITY_DISTRICTS, '0784', 'Haabersti linnaosa'));
+        $this->assertSame('0176', $this->ehak->getCode(EHAK::CITY_DISTRICTS, '0784', 'Haabersti linnaosa'));
     }
 
     public function testCanGetCityDistrictByCode()
     {
-        $this->assertEquals('Haabersti linnaosa', $this->ehak->getLocation(EHAK::CITY_DISTRICTS, '0784', '0176'));
+        $this->assertSame('Haabersti linnaosa', $this->ehak->getLocation(EHAK::CITY_DISTRICTS, '0784', '0176'));
     }
 
     public function testCanGetFullLocationByVillageCode()
@@ -113,7 +115,7 @@ class EHAKTest extends TestCase
 
     public function testCanGetCodeFromFullLocation()
     {
-        $this->assertEquals('0176', $this->ehak->getCodeFromFullLocation([
+        $this->assertSame('0176', $this->ehak->getCodeFromFullLocation([
             EHAK::COUNTIES => 'Harju maakond',
             EHAK::CITIES => 'Tallinn',
             EHAK::CITY_DISTRICTS => 'Haabersti linnaosa',
@@ -121,7 +123,7 @@ class EHAKTest extends TestCase
             EHAK::VILLAGES => '',
         ]));
 
-        $this->assertEquals('0784', $this->ehak->getCodeFromFullLocation([
+        $this->assertSame('0784', $this->ehak->getCodeFromFullLocation([
             EHAK::COUNTIES => 'Harju maakond',
             EHAK::CITIES => 'Tallinn',
             EHAK::CITY_DISTRICTS => '',
@@ -129,7 +131,7 @@ class EHAKTest extends TestCase
             EHAK::VILLAGES => '',
         ]));
 
-        $this->assertEquals('0141', $this->ehak->getCodeFromFullLocation([
+        $this->assertSame('0141', $this->ehak->getCodeFromFullLocation([
             EHAK::COUNTIES => 'Harju maakond',
             EHAK::CITIES => '',
             EHAK::CITY_DISTRICTS => '',
@@ -137,7 +139,7 @@ class EHAKTest extends TestCase
             EHAK::VILLAGES => '',
         ]));
 
-        $this->assertEquals('0037', $this->ehak->getCodeFromFullLocation([
+        $this->assertSame('0037', $this->ehak->getCodeFromFullLocation([
             EHAK::COUNTIES => 'Harju maakond',
             EHAK::CITIES => '',
             EHAK::CITY_DISTRICTS => '',
