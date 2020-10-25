@@ -31,7 +31,7 @@ class EHAKTest extends TestCase
 
     public function testInitsDefaultVersion()
     {
-        $this->assertSame('2020v2', $this->ehak->getVersion());
+        $this->assertSame('2020v3', $this->ehak->getVersion());
     }
 
     public function testCanSetCustomVersion()
