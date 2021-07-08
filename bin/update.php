@@ -42,10 +42,11 @@ if (!defined('TYPE_STR')) {
  * Detect item type
  *
  * @param object $item
- * 
+ *
  * @return string
  */
-function type($item) {
+function type($item)
+{
     $types = [
         0 => EHAK::COUNTIES,
         1 => EHAK::PARISHES,
@@ -58,7 +59,9 @@ function type($item) {
     ];
 
     // Remove type string
-    $typeNo = (int)str_replace(TYPE_STR, '',
+    $typeNo = (int)str_replace(
+        TYPE_STR,
+        '',
         // Remove spaces
         str_replace(
             ' ',
@@ -74,10 +77,11 @@ function type($item) {
  * Get item label
  *
  * @param object $item
- * 
+ *
  * @return string
  */
-function label($item) {
+function label($item)
+{
     return (string)$item->Label->LabelText;
 }
 
@@ -85,7 +89,7 @@ function label($item) {
  * Log based on debug flag
  *
  * @param string $str String to log
- * 
+ *
  * @return void
  */
 function debug($str)
@@ -127,7 +131,7 @@ if (isset($xml->Classification->Item)) {
                 foreach ($countyPart->Item as $parishPart) {
                     $parishPartId = (string)$parishPart->attributes()->id;
 
-                    if($parishPart->Property) {
+                    if ($parishPart->Property) {
                         $type = type($parishPart);
                         ${$type}[$countyPartId][] = [$parishPartId, label($parishPart)];
                     }
@@ -137,14 +141,8 @@ if (isset($xml->Classification->Item)) {
                     foreach ($parishPart->Item as $villagePart) {
                         debug($villagePart->Label->LabelText.' (id: '.(string)$villagePart->attributes()->id.')');
 
-                        if($villagePart->Property) {
+                        if ($villagePart->Property) {
                             $name = label($villagePart);
-                            
-                            // Ignore city in city since we already have it under city
-                            if (in_array($name, CITY_IN_CITY)) {
-                                continue;
-                            }
-
                             $type = type($villagePart);
                             $villagePartId = (string)$villagePart->attributes()->id;
                             ${$type}[$countyPartId][] = [$villagePartId, $name];
