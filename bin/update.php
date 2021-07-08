@@ -22,17 +22,6 @@ if (!defined('DEBUG')) {
     define('DEBUG', $debug);
 }
 
-// Cities which contain themself
-if (!defined('CITY_IN_CITY')) {
-    define('CITY_IN_CITY', [
-        'Tartu linn',
-        'Pärnu linn',
-        'Narva-Jõesuu linn',
-        'Paide linn',
-        'Haapsalu linn'
-    ]);
-}
-
 // Type string used in XML
 if (!defined('TYPE_STR')) {
     define('TYPE_STR', 'Tüüp=');
