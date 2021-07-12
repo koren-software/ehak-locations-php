@@ -174,7 +174,7 @@ class EHAK
                 }
 
                 // County is always parent
-                $location[self::COUNTIES] = self::getLocation(self::COUNTIES, '1', $parentKey);
+                $location[self::COUNTIES] = $this->getLocation(self::COUNTIES, '1', $parentKey);
                 break;
             }
         }
@@ -210,7 +210,7 @@ class EHAK
 
         $parentCode = '1';
         foreach ($orderedLocation as $locationKey => $locationName) {
-            $parentCode = self::getCode($locationKey, (string)$parentCode, (string)$locationName);
+            $parentCode = $this->getCode($locationKey, (string)$parentCode, (string)$locationName);
         }
 
         return $parentCode;
