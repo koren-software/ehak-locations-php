@@ -174,7 +174,7 @@ class EHAK
                 }
 
                 // County is always parent
-                $location[self::COUNTIES] = $this->getLocation(self::COUNTIES, '1', $parentKey);
+                $location[self::COUNTIES] = $this->getLocation(self::COUNTIES, 'EST', $parentKey);
                 break;
             }
         }
