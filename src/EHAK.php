@@ -191,7 +191,7 @@ class EHAK
                 }
             }
 
-            if ($foundCounty) {
+            if ($found || $foundCounty) {
                 break;
             }
         }
