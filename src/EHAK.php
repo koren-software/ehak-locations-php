@@ -124,6 +124,7 @@ class EHAK
         $parentKeys = [];
         $found = false;
         $parentSearchKey = null;
+        $foundCounty = false;
 
         foreach (array_keys($location) as $searchKey) {
             foreach ($this->data[$searchKey] as $parentKey => $item) {
@@ -156,25 +157,41 @@ class EHAK
 
             // Add city or parish
             if ($found && $parentSearchKey) {
+                $fountCityParish = false;
                 foreach ($this->data[$parentSearchKey] as $parentCode => $childs) {
                     foreach ($childs as $child) {
-                        if ($child[0] === $parentKey) {
+                        if ((string)$child[0] === (string)$parentKey) {
                             $location[$parentSearchKey] = $child[1];
                             $parentKey = $parentCode;
+                            $fountCityParish = true;
+                            break;
                         }
+                    }
+
+                    if ($fountCityParish) {
+                        break;
                     }
                 }
             }
 
-            // Add county
             if ($found) {
-                // If searchable is county
-                if ((int)$parentKey === 1 || $parentKey === 'EST') {
-                    $parentKey = $ehakCode;
-                }
+                // Add county
+                foreach ($this->data[self::COUNTIES] as $parentCode => $childs) {
+                    foreach ($childs as $child) {
+                        if ((string)$child[0] === (string)$parentKey) {
+                            $location[self::COUNTIES] = $child[1];
+                            $foundCounty = true;
+                            break;
+                        }
+                    }
 
-                // County is always parent
-                $location[self::COUNTIES] = $this->getLocation(self::COUNTIES, 'EST', $parentKey);
+                    if ($foundCounty) {
+                        break;
+                    }
+                }
+            }
+
+            if ($foundCounty) {
                 break;
             }
         }
