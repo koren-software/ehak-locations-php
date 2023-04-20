@@ -1,30 +1,26 @@
 #!/usr/local/bin/php
 <?php
 use Koren\EHAK\EHAK;
+use Shuchkin\SimpleXLSX;
 
 include_once dirname(__FILE__).'/../vendor/autoload.php';
 
-$options = getopt("u:o::d::", [
-    'url:',
+$options = getopt("p:o::d::", [
+    'path:',
     'output::',
     'debug::'
 ]);
 
-$ehakUrl = $options['url'] ?? $options['u'] ?? false;
+$ehakPath = $options['path'] ?? $options['p'] ?? false;
 $outputFile = $options['output'] ?? $options['o'] ?? dirname(dirname(__FILE__)).'/src/data/{EHAK_VERSION}.php';
 $debug = isset($options['debug']) || isset($options['d']) ? true :  false;
 
-if (!$ehakUrl) {
-    die('Please set EHAK XML URL with --url or -u option.');
+if (!$ehakPath) {
+    die('Please set EHAK XLSX path with --path or -p option.');
 }
 
 if (!defined('DEBUG')) {
     define('DEBUG', $debug);
-}
-
-// Type string used in XML
-if (!defined('TYPE_STR')) {
-    define('TYPE_STR', 'Tüüp=');
 }
 
 /**
@@ -47,31 +43,7 @@ function type($item)
         8 => EHAK::VILLAGES,
     ];
 
-    // Remove type string
-    $typeNo = (int)str_replace(
-        TYPE_STR,
-        '',
-        // Remove spaces
-        str_replace(
-            ' ',
-            '',
-            (string)$item->Property->PropertyQualifier[1]->PropertyText
-        )
-    );
-
-    return $types[$typeNo];
-}
-
-/**
- * Get item label
- *
- * @param object $item
- *
- * @return string
- */
-function label($item)
-{
-    return (string)$item->Label->LabelText;
+    return $types[$item['Tüüp']];
 }
 
 /**
@@ -88,57 +60,38 @@ function debug($str)
     }
 }
 
-$xml = simplexml_load_file($ehakUrl);
-
-if (false === $xml) {
-    echo "Failed to parse ".$ehakUrl.PHP_EOL;
-    exit;
+if ($xlsx = SimpleXLSX::parseFile($ehakPath, true)) {
+    $headerValues = $rows = [];
+    $ehakVersion = null;
+    foreach ($xlsx->rows() as $k => $r) {
+        if ($k === 0) {
+            $firstLine = explode(' ', $r[0]);
+            $firstLineLastWord = end($firstLine);
+            $ehakVersion = str_replace('EHAK', '', $firstLineLastWord);
+        } elseif ($k === 3) {
+            $headerValues = $r;
+            continue;
+        } elseif ($k > 3) {
+            $rows[] = array_combine($headerValues, $r);
+        }
+    }
+} else {
+    echo SimpleXLSX::parseError();
 }
 
 // Location arrays
 $counties = $cities = $city_districts = $parishes = $villages = [];
 
-if (isset($xml->Classification->Item)) {
-    $ehakVersion = $xml->Classification->attributes()->version;
-    foreach ($xml->Classification->Item as $county) {
-        $countyId = (string)$county->attributes()->id;
-        $counties['EST'][] = [$countyId, label($county)];
-        $counties['1'][] = [$countyId, label($county)];
+if (count($rows) > 0) {
+    foreach ($rows as $row) {
+        $type = type($row);
 
-        debug($county->Label->LabelText);
-
-        foreach ($county->Item as $countyParts) {
-            debug($countyParts->Label->LabelText.' (id: '.(string)$countyParts->attributes()->id.')');
-
-            foreach ($countyParts->Item as $countyPart) {
-                $type = type($countyPart);
-                $countyPartId = (string)$countyPart->attributes()->id;
-                ${$type}[$countyId][] = [$countyPartId, label($countyPart)];
-
-                debug($countyPart->Label->LabelText.' (id: '.(string)$countyPart->attributes()->id.')');
-
-                foreach ($countyPart->Item as $parishPart) {
-                    $parishPartId = (string)$parishPart->attributes()->id;
-
-                    if ($parishPart->Property) {
-                        $type = type($parishPart);
-                        ${$type}[$countyPartId][] = [$parishPartId, label($parishPart)];
-                    }
-
-                    debug($parishPart->Label->LabelText.' (id: '.(string)$parishPart->attributes()->id.')');
-
-                    foreach ($parishPart->Item as $villagePart) {
-                        debug($villagePart->Label->LabelText.' (id: '.(string)$villagePart->attributes()->id.')');
-
-                        if ($villagePart->Property) {
-                            $name = label($villagePart);
-                            $type = type($villagePart);
-                            $villagePartId = (string)$villagePart->attributes()->id;
-                            ${$type}[$countyPartId][] = [$villagePartId, $name];
-                        }
-                    }
-                }
-            }
+        if ($type === EHAK::COUNTIES) {
+            ${$type}['EST'][] = [$row['Kood'], $row['Nimi']];
+            ${$type}[1][] = [$row['Kood'], $row['Nimi']];
+        } else {
+            $countyId = $row['Vald'] !== '0000' ? $row['Vald'] : $row['Maakond'];
+            ${$type}[$countyId][] = [$row['Kood'], $row['Nimi']];
         }
     }
 

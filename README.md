@@ -42,7 +42,7 @@ $ehak->getLocation(EHAK::VILLAGES, '0141', '1088'); // Aegviidu alev
 // Get full location from EHAK code
 $ehak->getFullLocation('0176');
 
-//Gives: 
+//Gives:
 [
     'counties' => 'Harju maakond',
     'cities' => 'Tallinn',
@@ -68,7 +68,7 @@ $ehak->getCodeFromFullLocation([
 `src/data` directory holds different versions of EHAK data. To save new version or update old, run:
 
 ```shell
-bin/update.php --url "EHAK XML URL HERE"
+bin/update.php --url "EHAK XLSX URL HERE"
 ```
 
 #### Options

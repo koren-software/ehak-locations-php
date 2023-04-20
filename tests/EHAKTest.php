@@ -31,7 +31,7 @@ class EHAKTest extends TestCase
 
     public function testInitsDefaultVersion()
     {
-        $this->assertSame('2021v2', $this->ehak->getVersion());
+        $this->assertSame('2023v2', $this->ehak->getVersion());
     }
 
     public function testCanSetCustomVersion()
@@ -73,12 +73,12 @@ class EHAKTest extends TestCase
 
     public function testCanGetVillageByName()
     {
-        $this->assertSame('1088', $this->ehak->getCode(EHAK::VILLAGES, '0141', 'Aegviidu alev'));
+        $this->assertSame('1086', $this->ehak->getCode(EHAK::VILLAGES, '0141', 'Aegviidu alev'));
     }
 
     public function testCanGetVillageByCode()
     {
-        $this->assertSame('Aegviidu alev', $this->ehak->getLocation(EHAK::VILLAGES, '0141', '1088'));
+        $this->assertSame('Aegviidu alev', $this->ehak->getLocation(EHAK::VILLAGES, '0141', '1086'));
     }
 
     public function testCanGetCityDistrictByName()
@@ -99,7 +99,7 @@ class EHAKTest extends TestCase
             EHAK::CITY_DISTRICTS => '',
             EHAK::PARISHES => 'Anija vald',
             EHAK::VILLAGES => 'Aegviidu alev',
-        ], $this->ehak->getFullLocation('1088'));
+        ], $this->ehak->getFullLocation('1086'));
     }
 
     public function testCanGetFullLocationByCityDistrictCode()
