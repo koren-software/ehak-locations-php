@@ -87,11 +87,11 @@ if (count($rows) > 0) {
         $type = type($row);
 
         if ($type === EHAK::COUNTIES) {
-            ${$type}['EST'][] = [$row['Kood'], $row['Nimi']];
-            ${$type}[1][] = [$row['Kood'], $row['Nimi']];
+            ${$type}['EST'][] = [(string)$row['Kood'], $row['Nimi']];
+            ${$type}[1][] = [(string)$row['Kood'], $row['Nimi']];
         } else {
             $countyId = $row['Vald'] !== '0000' ? $row['Vald'] : $row['Maakond'];
-            ${$type}[$countyId][] = [$row['Kood'], $row['Nimi']];
+            ${$type}[$countyId][] = [(string)$row['Kood'], $row['Nimi']];
         }
     }
 
