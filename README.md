@@ -63,12 +63,12 @@ $ehak->getCodeFromFullLocation([
 
 ## Development
 
-### Update / download data
+### Update data
 
 `src/data` directory holds different versions of EHAK data. To save new version or update old, run:
 
 ```shell
-bin/update.php --url "EHAK XLSX URL HERE"
+bin/update.php --path "EHAK XLSX PATH HERE"
 ```
 
 #### Options
