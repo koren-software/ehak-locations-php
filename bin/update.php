@@ -90,7 +90,8 @@ if (count($rows) > 0) {
             ${$type}['EST'][] = [(string)$row['Kood'], $row['Nimi']];
             ${$type}[1][] = [(string)$row['Kood'], $row['Nimi']];
         } else {
-            $countyId = $row['Vald'] !== '0000' ? $row['Vald'] : $row['Maakond'];
+            $municipality = isset($row['Vald']) ? $row['Vald'] : $row['Omavalitsus'];
+            $countyId = $municipality !== '0000' ? $municipality : $row['Maakond'];
             ${$type}[$countyId][] = [(string)$row['Kood'], $row['Nimi']];
         }
     }

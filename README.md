@@ -68,8 +68,10 @@ $ehak->getCodeFromFullLocation([
 `src/data` directory holds different versions of EHAK data. To save new version or update old, run:
 
 ```shell
-bin/update.php --path "EHAK XLSX PATH HERE"
+bin/update.php --path "EHAK XLSX PATH HERE, e.g /path/to/EHAK2023v3_veebifail.xlsx"
 ```
+
+NB! XLSX should be downloaded from Content > Downloads tab. Download file which contains "veebifail" in it's name.
 
 #### Options
 
