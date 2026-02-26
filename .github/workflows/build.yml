@@ -32,8 +32,8 @@ jobs:
     - name: PHP Unit Tests with coverage
       if: matrix.php-versions == '8.2'
       run: vendor/bin/phpunit --coverage-clover build/logs/clover.xml
-    - name: Send to coveralls
-      if: matrix.php-versions == '8.2'
-      run: vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml
-      env:
-        COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Send to coveralls
+    #   if: matrix.php-versions == '8.2'
+    #   run: vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml
+    #   env:
+    #     COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
