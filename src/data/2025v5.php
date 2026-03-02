@@ -158,14 +158,6 @@ return ["counties" => array (
   ),
 ),
 "cities" => array (
-  '0141' => 
-  array (
-    0 => 
-    array (
-      0 => '2928',
-      1 => 'Kehra linn',
-    ),
-  ),
   '0037' => 
   array (
     0 => 
@@ -189,30 +181,6 @@ return ["counties" => array (
       1 => 'Tallinn',
     ),
   ),
-  '0431' => 
-  array (
-    0 => 
-    array (
-      0 => '5925',
-      1 => 'Paldiski linn',
-    ),
-  ),
-  '0725' => 
-  array (
-    0 => 
-    array (
-      0 => '7453',
-      1 => 'Saue linn',
-    ),
-  ),
-  '0205' => 
-  array (
-    0 => 
-    array (
-      0 => '3895',
-      1 => 'Kärdla linn',
-    ),
-  ),
   '0045' => 
   array (
     0 => 
@@ -227,106 +195,8 @@ return ["counties" => array (
     ),
     2 => 
     array (
-      0 => '0515',
-      1 => 'Narva-Jõesuu linn',
-    ),
-    3 => 
-    array (
       0 => '0736',
       1 => 'Sillamäe linn',
-    ),
-  ),
-  '0442' => 
-  array (
-    0 => 
-    array (
-      0 => '3194',
-      1 => 'Kiviõli linn',
-    ),
-    1 => 
-    array (
-      0 => '6671',
-      1 => 'Püssi linn',
-    ),
-  ),
-  '0515' => 
-  array (
-    0 => 
-    array (
-      0 => '5356',
-      1 => 'Narva-Jõesuu linn',
-    ),
-  ),
-  '0250' => 
-  array (
-    0 => 
-    array (
-      0 => '2270',
-      1 => 'Jõhvi linn',
-    ),
-  ),
-  '0247' => 
-  array (
-    0 => 
-    array (
-      0 => '2262',
-      1 => 'Jõgeva linn',
-    ),
-  ),
-  '0486' => 
-  array (
-    0 => 
-    array (
-      0 => '5097',
-      1 => 'Mustvee linn',
-    ),
-  ),
-  '0618' => 
-  array (
-    0 => 
-    array (
-      0 => '6537',
-      1 => 'Põltsamaa linn',
-    ),
-  ),
-  '0052' => 
-  array (
-    0 => 
-    array (
-      0 => '0567',
-      1 => 'Paide linn',
-    ),
-  ),
-  '0567' => 
-  array (
-    0 => 
-    array (
-      0 => '5861',
-      1 => 'Paide linn',
-    ),
-  ),
-  '0834' => 
-  array (
-    0 => 
-    array (
-      0 => '8594',
-      1 => 'Türi linn',
-    ),
-  ),
-  '0056' => 
-  array (
-    0 => 
-    array (
-      0 => '0184',
-      1 => 'Haapsalu linn',
-    ),
-  ),
-  '0184' => 
-  array (
-    0 => 
-    array (
-      0 => '1692',
-      1 => 'Haapsalu linn',
     ),
   ),
   '0060' => 
@@ -337,200 +207,12 @@ return ["counties" => array (
       1 => 'Rakvere linn',
     ),
   ),
-  '0792' => 
-  array (
-    0 => 
-    array (
-      0 => '8132',
-      1 => 'Tamsalu linn',
-    ),
-    1 => 
-    array (
-      0 => '8140',
-      1 => 'Tapa linn',
-    ),
-  ),
-  '0903' => 
-  array (
-    0 => 
-    array (
-      0 => '3612',
-      1 => 'Kunda linn',
-    ),
-  ),
-  '0622' => 
-  array (
-    0 => 
-    array (
-      0 => '6536',
-      1 => 'Põlva linn',
-    ),
-  ),
-  '0708' => 
-  array (
-    0 => 
-    array (
-      0 => '7216',
-      1 => 'Räpina linn',
-    ),
-  ),
-  '0430' => 
-  array (
-    0 => 
-    array (
-      0 => '4330',
-      1 => 'Lihula linn',
-    ),
-  ),
-  '0068' => 
-  array (
-    0 => 
-    array (
-      0 => '0624',
-      1 => 'Pärnu linn',
-    ),
-  ),
-  '0624' => 
-  array (
-    0 => 
-    array (
-      0 => '6619',
-      1 => 'Pärnu linn',
-    ),
-  ),
-  '0712' => 
-  array (
-    0 => 
-    array (
-      0 => '3083',
-      1 => 'Kilingi-Nõmme linn',
-    ),
-  ),
-  '0806' => 
-  array (
-    0 => 
-    array (
-      0 => '7607',
-      1 => 'Sindi linn',
-    ),
-  ),
-  '0668' => 
-  array (
-    0 => 
-    array (
-      0 => '6826',
-      1 => 'Rapla linn',
-    ),
-  ),
-  '0714' => 
-  array (
-    0 => 
-    array (
-      0 => '3655',
-      1 => 'Kuressaare linn',
-    ),
-  ),
-  '0171' => 
-  array (
-    0 => 
-    array (
-      0 => '1586',
-      1 => 'Elva linn',
-    ),
-  ),
-  '0586' => 
-  array (
-    0 => 
-    array (
-      0 => '2596',
-      1 => 'Kallaste linn',
-    ),
-  ),
-  '0079' => 
-  array (
-    0 => 
-    array (
-      0 => '0793',
-      1 => 'Tartu linn',
-    ),
-  ),
-  '0793' => 
-  array (
-    0 => 
-    array (
-      0 => '8151',
-      1 => 'Tartu linn',
-    ),
-  ),
-  '0557' => 
-  array (
-    0 => 
-    array (
-      0 => '5755',
-      1 => 'Otepää linn',
-    ),
-  ),
-  '0824' => 
-  array (
-    0 => 
-    array (
-      0 => '8529',
-      1 => 'Tõrva linn',
-    ),
-  ),
-  '0857' => 
-  array (
-    0 => 
-    array (
-      0 => '8918',
-      1 => 'Valga linn',
-    ),
-  ),
-  '0480' => 
-  array (
-    0 => 
-    array (
-      0 => '1060',
-      1 => 'Abja-Paluoja linn',
-    ),
-    1 => 
-    array (
-      0 => '2761',
-      1 => 'Karksi-Nuia linn',
-    ),
-    2 => 
-    array (
-      0 => '5145',
-      1 => 'Mõisaküla linn',
-    ),
-  ),
-  '0615' => 
-  array (
-    0 => 
-    array (
-      0 => '7839',
-      1 => 'Suure-Jaani linn',
-    ),
-    1 => 
-    array (
-      0 => '9500',
-      1 => 'Võhma linn',
-    ),
-  ),
   '0084' => 
   array (
     0 => 
     array (
       0 => '0897',
       1 => 'Viljandi linn',
-    ),
-  ),
-  '0145' => 
-  array (
-    0 => 
-    array (
-      0 => '1301',
-      1 => 'Antsla linn',
     ),
   ),
   '0087' => 
@@ -623,13 +305,18 @@ return ["counties" => array (
     ),
     1 => 
     array (
-      0 => '0442',
-      1 => 'Lüganuse vald',
+      0 => '0250',
+      1 => 'Jõhvi vald',
     ),
     2 => 
     array (
-      0 => '0250',
-      1 => 'Jõhvi vald',
+      0 => '0442',
+      1 => 'Lüganuse vald',
+    ),
+    3 => 
+    array (
+      0 => '0515',
+      1 => 'Narva-Jõesuu linn',
     ),
   ),
   '0050' => 
@@ -659,6 +346,11 @@ return ["counties" => array (
     ),
     1 => 
     array (
+      0 => '0567',
+      1 => 'Paide linn',
+    ),
+    2 => 
+    array (
       0 => '0834',
       1 => 'Türi vald',
     ),
@@ -667,10 +359,15 @@ return ["counties" => array (
   array (
     0 => 
     array (
+      0 => '0184',
+      1 => 'Haapsalu linn',
+    ),
+    1 => 
+    array (
       0 => '0441',
       1 => 'Lääne-Nigula vald',
     ),
-    1 => 
+    2 => 
     array (
       0 => '0907',
       1 => 'Vormsi vald',
@@ -751,15 +448,20 @@ return ["counties" => array (
     ),
     3 => 
     array (
+      0 => '0624',
+      1 => 'Pärnu linn',
+    ),
+    4 => 
+    array (
       0 => '0637',
       1 => 'Põhja-Pärnumaa vald',
     ),
-    4 => 
+    5 => 
     array (
       0 => '0712',
       1 => 'Saarde vald',
     ),
-    5 => 
+    6 => 
     array (
       0 => '0806',
       1 => 'Tori vald',
@@ -839,6 +541,11 @@ return ["counties" => array (
       1 => 'Peipsiääre vald',
     ),
     6 => 
+    array (
+      0 => '0793',
+      1 => 'Tartu linn',
+    ),
+    7 => 
     array (
       0 => '0796',
       1 => 'Tartu vald',
@@ -949,120 +656,125 @@ return ["counties" => array (
     ),
     8 => 
     array (
+      0 => '2928',
+      1 => 'Kehra linn',
+    ),
+    9 => 
+    array (
       0 => '3022',
       1 => 'Kihmla küla',
     ),
-    9 => 
+    10 => 
     array (
       0 => '3716',
       1 => 'Kuusemäe küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '4213',
       1 => 'Lehtmetsa küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '4369',
       1 => 'Lilli küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '4397',
       1 => 'Linnakse küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '4506',
       1 => 'Looküla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '4672',
       1 => 'Lükati küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '5081',
       1 => 'Mustjõe küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '5789',
       1 => 'Paasiku küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '6009',
       1 => 'Parila küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '6022',
       1 => 'Partsaare küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '6241',
       1 => 'Pikva küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '6251',
       1 => 'Pillapalu küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '6828',
       1 => 'Rasivere küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '6855',
       1 => 'Raudoja küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '7068',
       1 => 'Rooküla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '7396',
       1 => 'Salumetsa küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '7398',
       1 => 'Salumäe küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '7693',
       1 => 'Soodla küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '8764',
       1 => 'Uuearu küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '9248',
       1 => 'Vetla küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '9318',
       1 => 'Vikipalu küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '9480',
       1 => 'Voose küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '9827',
       1 => 'Ülejõe küla',
@@ -2307,70 +2019,75 @@ return ["counties" => array (
     ),
     38 => 
     array (
+      0 => '5925',
+      1 => 'Paldiski linn',
+    ),
+    39 => 
+    array (
       0 => '6062',
       1 => 'Pedase küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '6528',
       1 => 'Põllküla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '7121',
       1 => 'Rummu alevik',
     ),
-    41 => 
+    42 => 
     array (
       0 => '7856',
       1 => 'Suurküla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '8460',
       1 => 'Tuulna küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '8499',
       1 => 'Tõmmiku küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '8956',
       1 => 'Valkse küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '9101',
       1 => 'Vasalemma alevik',
     ),
-    46 => 
+    47 => 
     array (
       0 => '9231',
       1 => 'Veskiküla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '9265',
       1 => 'Vihterpalu küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '9339',
       1 => 'Vilivalla küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '9380',
       1 => 'Vintse küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '9752',
       1 => 'Ämari alevik',
     ),
-    51 => 
+    52 => 
     array (
       0 => '9767',
       1 => 'Änglema küla',
@@ -2929,65 +2646,70 @@ return ["counties" => array (
     ),
     40 => 
     array (
+      0 => '7453',
+      1 => 'Saue linn',
+    ),
+    41 => 
+    array (
       0 => '7571',
       1 => 'Siimika küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '8006',
       1 => 'Tabara küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '8045',
       1 => 'Tagametsa küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '8421',
       1 => 'Turba alevik',
     ),
-    44 => 
+    45 => 
     array (
       0 => '8450',
       1 => 'Tuula küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '8946',
       1 => 'Valingu küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '9033',
       1 => 'Vanamõisa küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '9049',
       1 => 'Vansi küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '9146',
       1 => 'Vatsla küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '9362',
       1 => 'Vilumäe küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '9401',
       1 => 'Viruküla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '9794',
       1 => 'Ääsmäe küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '9846',
       1 => 'Ürjaste küla',
@@ -3033,7 +2755,7 @@ return ["counties" => array (
     7 => 
     array (
       0 => '4618',
-      1 => 'Lõunaküla / Storbyn',
+      1 => 'Lõunaküla/Storbyn',
     ),
     8 => 
     array (
@@ -3083,7 +2805,7 @@ return ["counties" => array (
     17 => 
     array (
       0 => '8039',
-      1 => 'Tagaküla / Bakbyn',
+      1 => 'Tagaküla/Bakbyn',
     ),
     18 => 
     array (
@@ -3098,7 +2820,7 @@ return ["counties" => array (
     20 => 
     array (
       0 => '9619',
-      1 => 'Väikeheinamaa küla / Lillängin',
+      1 => 'Väikeheinamaa küla/Lillängin',
     ),
     21 => 
     array (
@@ -3415,615 +3137,620 @@ return ["counties" => array (
     ),
     61 => 
     array (
+      0 => '3895',
+      1 => 'Kärdla linn',
+    ),
+    62 => 
+    array (
       0 => '3976',
       1 => 'Külaküla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '3978',
       1 => 'Külama küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '4023',
       1 => 'Laasi küla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '4025',
       1 => 'Laartsa küla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '4056',
       1 => 'Laheküla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '4128',
       1 => 'Lassi küla',
     ),
-    67 => 
+    68 => 
     array (
       0 => '4141',
       1 => 'Lauka küla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '4184',
       1 => 'Leerimetsa küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '4209',
       1 => 'Lehtma küla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '4223',
       1 => 'Leigri küla',
     ),
-    71 => 
+    72 => 
     array (
       0 => '4245',
       1 => 'Leisu küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '4253',
       1 => 'Lelu küla',
     ),
-    73 => 
+    74 => 
     array (
       0 => '4290',
       1 => 'Lepiku küla',
     ),
-    74 => 
+    75 => 
     array (
       0 => '4319',
       1 => 'Ligema küla',
     ),
-    75 => 
+    76 => 
     array (
       0 => '4371',
       1 => 'Lilbi küla',
     ),
-    76 => 
+    77 => 
     array (
       0 => '4402',
       1 => 'Linnumäe küla',
     ),
-    77 => 
+    78 => 
     array (
       0 => '4465',
       1 => 'Loja küla',
     ),
-    78 => 
+    79 => 
     array (
       0 => '4537',
       1 => 'Luguse küla',
     ),
-    79 => 
+    80 => 
     array (
       0 => '4546',
       1 => 'Luidja küla',
     ),
-    80 => 
+    81 => 
     array (
       0 => '4590',
       1 => 'Lõbembe küla',
     ),
-    81 => 
+    82 => 
     array (
       0 => '4612',
       1 => 'Lõpe küla',
     ),
-    82 => 
+    83 => 
     array (
       0 => '4765',
       1 => 'Malvaste küla',
     ),
-    83 => 
+    84 => 
     array (
       0 => '4766',
       1 => 'Mangu küla',
     ),
-    84 => 
+    85 => 
     array (
       0 => '4780',
       1 => 'Mardihansu küla',
     ),
-    85 => 
+    86 => 
     array (
       0 => '4844',
       1 => 'Meelste küla',
     ),
-    86 => 
+    87 => 
     array (
       0 => '4890',
       1 => 'Metsaküla',
     ),
-    87 => 
+    88 => 
     array (
       0 => '4898',
       1 => 'Metsalauka küla',
     ),
-    88 => 
+    89 => 
     array (
       0 => '4910',
       1 => 'Metsapere küla',
     ),
-    89 => 
+    90 => 
     array (
       0 => '4966',
       1 => 'Moka küla',
     ),
-    90 => 
+    91 => 
     array (
       0 => '4993',
       1 => 'Muda küla',
     ),
-    91 => 
+    92 => 
     array (
       0 => '4995',
       1 => 'Mudaste küla',
     ),
-    92 => 
+    93 => 
     array (
       0 => '5183',
       1 => 'Mäeküla',
     ),
-    93 => 
+    94 => 
     array (
       0 => '5203',
       1 => 'Mäeltse küla',
     ),
-    94 => 
+    95 => 
     array (
       0 => '5224',
       1 => 'Mägipe küla',
     ),
-    95 => 
+    96 => 
     array (
       0 => '5258',
       1 => 'Männamaa küla',
     ),
-    96 => 
+    97 => 
     array (
       0 => '5272',
       1 => 'Mänspe küla',
     ),
-    97 => 
+    98 => 
     array (
       0 => '5298',
       1 => 'Määvli küla',
     ),
-    98 => 
+    99 => 
     array (
       0 => '5350',
       1 => 'Napi küla',
     ),
-    99 => 
+    100 => 
     array (
       0 => '5360',
       1 => 'Nasva küla',
     ),
-    100 => 
+    101 => 
     array (
       0 => '5412',
       1 => 'Niidiküla',
     ),
-    101 => 
+    102 => 
     array (
       0 => '5479',
       1 => 'Nurste küla',
     ),
-    102 => 
+    103 => 
     array (
       0 => '5503',
       1 => 'Nõmba küla',
     ),
-    103 => 
+    104 => 
     array (
       0 => '5512',
       1 => 'Nõmme küla',
     ),
-    104 => 
+    105 => 
     array (
       0 => '5514',
       1 => 'Nõmmerga küla',
     ),
-    105 => 
+    106 => 
     array (
       0 => '5613',
       1 => 'Ogandi küla',
     ),
-    106 => 
+    107 => 
     array (
       0 => '5649',
       1 => 'Ojaküla',
     ),
-    107 => 
+    108 => 
     array (
       0 => '5654',
       1 => 'Ole küla',
     ),
-    108 => 
+    109 => 
     array (
       0 => '5728',
       1 => 'Orjaku küla',
     ),
-    109 => 
+    110 => 
     array (
       0 => '5767',
       1 => 'Otste küla',
     ),
-    110 => 
+    111 => 
     array (
       0 => '5908',
       1 => 'Palade küla',
     ),
-    111 => 
+    112 => 
     array (
       0 => '5932',
       1 => 'Palli küla',
     ),
-    112 => 
+    113 => 
     array (
       0 => '5946',
       1 => 'Paluküla',
     ),
-    113 => 
+    114 => 
     array (
       0 => '5978',
       1 => 'Paope küla',
     ),
-    114 => 
+    115 => 
     array (
       0 => '6024',
       1 => 'Partsi küla',
     ),
-    115 => 
+    116 => 
     array (
       0 => '6145',
       1 => 'Pihla küla',
     ),
-    116 => 
+    117 => 
     array (
       0 => '6258',
       1 => 'Pilpaküla',
     ),
-    117 => 
+    118 => 
     array (
       0 => '6297',
       1 => 'Poama küla',
     ),
-    118 => 
+    119 => 
     array (
       0 => '6357',
       1 => 'Prassi küla',
     ),
-    119 => 
+    120 => 
     array (
       0 => '6372',
       1 => 'Prähnu küla',
     ),
-    120 => 
+    121 => 
     array (
       0 => '6373',
       1 => 'Prählamäe küla',
     ),
-    121 => 
+    122 => 
     array (
       0 => '6419',
       1 => 'Puliste küla',
     ),
-    122 => 
+    123 => 
     array (
       0 => '6459',
       1 => 'Puski küla',
     ),
-    123 => 
+    124 => 
     array (
       0 => '6460',
       1 => 'Putkaste küla',
     ),
-    124 => 
+    125 => 
     array (
       0 => '6609',
       1 => 'Pärna küla',
     ),
-    125 => 
+    126 => 
     array (
       0 => '6615',
       1 => 'Pärnselja küla',
     ),
-    126 => 
+    127 => 
     array (
       0 => '6660',
       1 => 'Pühalepa-Harju küla',
     ),
-    127 => 
+    128 => 
     array (
       0 => '6661',
       1 => 'Pühalepa küla',
     ),
-    128 => 
+    129 => 
     array (
       0 => '6801',
       1 => 'Rannaküla',
     ),
-    129 => 
+    130 => 
     array (
       0 => '6903',
       1 => 'Reheselja küla',
     ),
-    130 => 
+    131 => 
     array (
       0 => '6908',
       1 => 'Reigi küla',
     ),
-    131 => 
+    132 => 
     array (
       0 => '6909',
       1 => 'Reigi-Nõmme küla',
     ),
-    132 => 
+    133 => 
     array (
       0 => '6910',
       1 => 'Reikama küla',
     ),
-    133 => 
+    134 => 
     array (
       0 => '6972',
       1 => 'Riidaküla',
     ),
-    134 => 
+    135 => 
     array (
       0 => '7009',
       1 => 'Risti küla',
     ),
-    135 => 
+    136 => 
     array (
       0 => '7014',
       1 => 'Ristivälja küla',
     ),
-    136 => 
+    137 => 
     array (
       0 => '7084',
       1 => 'Rootsi küla',
     ),
-    137 => 
+    138 => 
     array (
       0 => '7349',
       1 => 'Sakla küla',
     ),
-    138 => 
+    139 => 
     array (
       0 => '7382',
       1 => 'Salinõmme küla',
     ),
-    139 => 
+    140 => 
     array (
       0 => '7438',
       1 => 'Sarve küla',
     ),
-    140 => 
+    141 => 
     array (
       0 => '7528',
       1 => 'Selja küla',
     ),
-    141 => 
+    142 => 
     array (
       0 => '7548',
       1 => 'Sepaste küla',
     ),
-    142 => 
+    143 => 
     array (
       0 => '7554',
       1 => 'Sigala küla',
     ),
-    143 => 
+    144 => 
     array (
       0 => '7616',
       1 => 'Sinima küla',
     ),
-    144 => 
+    145 => 
     array (
       0 => '7728',
       1 => 'Soonlepa küla',
     ),
-    145 => 
+    146 => 
     array (
       0 => '7846',
       1 => 'Suuremõisa küla',
     ),
-    146 => 
+    147 => 
     array (
       0 => '7848',
       1 => 'Suurepsi küla',
     ),
-    147 => 
+    148 => 
     array (
       0 => '7850',
       1 => 'Suureranna küla',
     ),
-    148 => 
+    149 => 
     array (
       0 => '7864',
       1 => 'Suuresadama küla',
     ),
-    149 => 
+    150 => 
     array (
       0 => '7900',
       1 => 'Sõru küla',
     ),
-    150 => 
+    151 => 
     array (
       0 => '7949',
       1 => 'Sääre küla',
     ),
-    151 => 
+    152 => 
     array (
       0 => '7972',
       1 => 'Sülluste küla',
     ),
-    152 => 
+    153 => 
     array (
       0 => '8061',
       1 => 'Taguküla',
     ),
-    153 => 
+    154 => 
     array (
       0 => '8067',
       1 => 'Tahkuna küla',
     ),
-    154 => 
+    155 => 
     array (
       0 => '8095',
       1 => 'Tammela küla',
     ),
-    155 => 
+    156 => 
     array (
       0 => '8122',
       1 => 'Tammistu küla',
     ),
-    156 => 
+    157 => 
     array (
       0 => '8150',
       1 => 'Tareste küla',
     ),
-    157 => 
+    158 => 
     array (
       0 => '8162',
       1 => 'Taterma küla',
     ),
-    158 => 
+    159 => 
     array (
       0 => '8190',
       1 => 'Tempa küla',
     ),
-    159 => 
+    160 => 
     array (
       0 => '8209',
       1 => 'Tiharu küla',
     ),
-    160 => 
+    161 => 
     array (
       0 => '8236',
       1 => 'Tilga küla',
     ),
-    161 => 
+    162 => 
     array (
       0 => '8271',
       1 => 'Tohvri küla',
     ),
-    162 => 
+    163 => 
     array (
       0 => '8382',
       1 => 'Tubala küla',
     ),
-    163 => 
+    164 => 
     array (
       0 => '8576',
       1 => 'Tärkma küla',
     ),
-    164 => 
+    165 => 
     array (
       0 => '8656',
       1 => 'Ulja küla',
     ),
-    165 => 
+    166 => 
     array (
       0 => '8682',
       1 => 'Undama küla',
     ),
-    166 => 
+    167 => 
     array (
       0 => '8747',
       1 => 'Utu küla',
     ),
-    167 => 
+    168 => 
     array (
       0 => '8827',
       1 => 'Vaemla küla',
     ),
-    168 => 
+    169 => 
     array (
       0 => '8853',
       1 => 'Vahtrepa küla',
     ),
-    169 => 
+    170 => 
     array (
       0 => '8911',
       1 => 'Villemi küla',
     ),
-    170 => 
+    171 => 
     array (
       0 => '8938',
       1 => 'Valgu küla',
     ),
-    171 => 
+    172 => 
     array (
       0 => '8949',
       1 => 'Valipe küla',
     ),
-    172 => 
+    173 => 
     array (
       0 => '9019',
       1 => 'Vanamõisa küla',
     ),
-    173 => 
+    174 => 
     array (
       0 => '9278',
       1 => 'Viilupi küla',
     ),
-    174 => 
+    175 => 
     array (
       0 => '9295',
       1 => 'Viiri küla',
     ),
-    175 => 
+    176 => 
     array (
       0 => '9303',
       1 => 'Viita küla',
     ),
-    176 => 
+    177 => 
     array (
       0 => '9306',
       1 => 'Viitasoo küla',
     ),
-    177 => 
+    178 => 
     array (
       0 => '9327',
       1 => 'Vilima küla',
     ),
-    178 => 
+    179 => 
     array (
       0 => '9338',
       1 => 'Vilivalla küla',
     ),
-    179 => 
+    180 => 
     array (
       0 => '9349',
       1 => 'Villamaa küla',
     ),
-    180 => 
+    181 => 
     array (
       0 => '9674',
       1 => 'Värssu küla',
     ),
-    181 => 
+    182 => 
     array (
       0 => '9703',
       1 => 'Õngu küla',
     ),
-    182 => 
+    183 => 
     array (
       0 => '9816',
       1 => 'Ühtri küla',
     ),
-    183 => 
+    184 => 
     array (
       0 => '9826',
       1 => 'Ülendi küla',
@@ -4407,6 +4134,224 @@ return ["counties" => array (
       1 => 'Väike-Pungerja küla',
     ),
   ),
+  '0250' => 
+  array (
+    0 => 
+    array (
+      0 => '1212',
+      1 => 'Altküla',
+    ),
+    1 => 
+    array (
+      0 => '1253',
+      1 => 'Amula küla',
+    ),
+    2 => 
+    array (
+      0 => '1524',
+      1 => 'Edise küla',
+    ),
+    3 => 
+    array (
+      0 => '2270',
+      1 => 'Jõhvi linn',
+    ),
+    4 => 
+    array (
+      0 => '2271',
+      1 => 'Jõhvi küla',
+    ),
+    5 => 
+    array (
+      0 => '2350',
+      1 => 'Järve küla',
+    ),
+    6 => 
+    array (
+      0 => '2420',
+      1 => 'Kaasikaia küla',
+    ),
+    7 => 
+    array (
+      0 => '2429',
+      1 => 'Kaasikvälja küla',
+    ),
+    8 => 
+    array (
+      0 => '2448',
+      1 => 'Kabelimetsa küla',
+    ),
+    9 => 
+    array (
+      0 => '2520',
+      1 => 'Kahula küla',
+    ),
+    10 => 
+    array (
+      0 => '3262',
+      1 => 'Kohtla-Uueküla',
+    ),
+    11 => 
+    array (
+      0 => '3265',
+      1 => 'Kohtla-Nõmme alev',
+    ),
+    12 => 
+    array (
+      0 => '3269',
+      1 => 'Kohtla küla',
+    ),
+    13 => 
+    array (
+      0 => '3375',
+      1 => 'Konju küla',
+    ),
+    14 => 
+    array (
+      0 => '3461',
+      1 => 'Kose küla',
+    ),
+    15 => 
+    array (
+      0 => '3477',
+      1 => 'Kotinuka küla',
+    ),
+    16 => 
+    array (
+      0 => '3562',
+      1 => 'Kukruse küla',
+    ),
+    17 => 
+    array (
+      0 => '4389',
+      1 => 'Linna küla',
+    ),
+    18 => 
+    array (
+      0 => '4799',
+      1 => 'Martsa küla',
+    ),
+    19 => 
+    array (
+      0 => '4896',
+      1 => 'Metsamägara küla',
+    ),
+    20 => 
+    array (
+      0 => '5142',
+      1 => 'Mõisamaa küla',
+    ),
+    21 => 
+    array (
+      0 => '5680',
+      1 => 'Ontika küla',
+    ),
+    22 => 
+    array (
+      0 => '5793',
+      1 => 'Paate küla',
+    ),
+    23 => 
+    array (
+      0 => '5884',
+      1 => 'Pajualuse küla',
+    ),
+    24 => 
+    array (
+      0 => '5999',
+      1 => 'Pargitaguse küla',
+    ),
+    25 => 
+    array (
+      0 => '6050',
+      1 => 'Pauliku küla',
+    ),
+    26 => 
+    array (
+      0 => '6081',
+      1 => 'Peeri küla',
+    ),
+    27 => 
+    array (
+      0 => '6455',
+      1 => 'Puru küla',
+    ),
+    28 => 
+    array (
+      0 => '6582',
+      1 => 'Päite küla',
+    ),
+    29 => 
+    array (
+      0 => '6656',
+      1 => 'Pühajõe küla',
+    ),
+    30 => 
+    array (
+      0 => '7062',
+      1 => 'Roodu küla',
+    ),
+    31 => 
+    array (
+      0 => '7348',
+      1 => 'Saka küla',
+    ),
+    32 => 
+    array (
+      0 => '7551',
+      1 => 'Servaääre küla',
+    ),
+    33 => 
+    array (
+      0 => '7677',
+      1 => 'Sompa küla',
+    ),
+    34 => 
+    array (
+      0 => '8114',
+      1 => 'Tammiku alevik',
+    ),
+    35 => 
+    array (
+      0 => '8275',
+      1 => 'Toila alevik',
+    ),
+    36 => 
+    array (
+      0 => '8563',
+      1 => 'Täkumetsa küla',
+    ),
+    37 => 
+    array (
+      0 => '8647',
+      1 => 'Uikala küla',
+    ),
+    38 => 
+    array (
+      0 => '8900',
+      1 => 'Vaivina küla',
+    ),
+    39 => 
+    array (
+      0 => '8914',
+      1 => 'Valaste küla',
+    ),
+    40 => 
+    array (
+      0 => '9432',
+      1 => 'Vitsiku küla',
+    ),
+    41 => 
+    array (
+      0 => '9453',
+      1 => 'Voka küla',
+    ),
+    42 => 
+    array (
+      0 => '9455',
+      1 => 'Voka alevik',
+    ),
+  ),
   '0442' => 
   array (
     0 => 
@@ -4481,185 +4426,195 @@ return ["counties" => array (
     ),
     14 => 
     array (
+      0 => '3194',
+      1 => 'Kiviõli linn',
+    ),
+    15 => 
+    array (
       0 => '3348',
       1 => 'Koljala küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '3404',
       1 => 'Koolma küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '3436',
       1 => 'Kopli küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '3576',
       1 => 'Kulja küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '4347',
       1 => 'Liimala küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '4419',
       1 => 'Lipu küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '4449',
       1 => 'Lohkuse küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '4669',
       1 => 'Lüganuse alevik',
     ),
-    22 => 
+    23 => 
     array (
       0 => '4688',
       1 => 'Lümatu küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '4740',
       1 => 'Maidla küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '4819',
       1 => 'Matka küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '4857',
       1 => 'Mehide küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '4975',
       1 => 'Moldova küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '5088',
       1 => 'Mustmätta küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '5569',
       1 => 'Nüri küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '5574',
       1 => 'Oandu küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '5652',
       1 => 'Ojamaa küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '6172',
       1 => 'Piilse küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '6450',
       1 => 'Purtse küla',
     ),
-    33 => 
+    34 => 
+    array (
+      0 => '6671',
+      1 => 'Püssi linn',
+    ),
+    35 => 
     array (
       0 => '6894',
       1 => 'Rebu küla',
     ),
-    34 => 
+    36 => 
     array (
       0 => '7245',
       1 => 'Rääsa küla',
     ),
-    35 => 
+    37 => 
     array (
       0 => '7371',
       1 => 'Salaküla',
     ),
-    36 => 
+    38 => 
     array (
       0 => '7447',
       1 => 'Satsu küla',
     ),
-    37 => 
+    39 => 
     array (
       0 => '7477',
       1 => 'Savala küla',
     ),
-    38 => 
+    40 => 
     array (
       0 => '7640',
       1 => 'Sirtsi küla',
     ),
-    39 => 
+    41 => 
     array (
       0 => '7680',
       1 => 'Sonda alevik',
     ),
-    40 => 
+    42 => 
     array (
       0 => '7735',
       1 => 'Soonurme küla',
     ),
-    41 => 
+    43 => 
     array (
       0 => '8154',
       1 => 'Tarumaa küla',
     ),
-    42 => 
+    44 => 
     array (
       0 => '8660',
       1 => 'Uljaste küla',
     ),
-    43 => 
+    45 => 
     array (
       0 => '8691',
       1 => 'Uniküla',
     ),
-    44 => 
+    46 => 
     array (
       0 => '8884',
       1 => 'Vainu küla',
     ),
-    45 => 
+    47 => 
     array (
       0 => '9005',
       1 => 'Vana-Sonda küla',
     ),
-    46 => 
+    48 => 
     array (
       0 => '9086',
       1 => 'Varinurme küla',
     ),
-    47 => 
+    49 => 
     array (
       0 => '9088',
       1 => 'Varja küla',
     ),
-    48 => 
+    50 => 
     array (
       0 => '9200',
       1 => 'Veneoja küla',
     ),
-    49 => 
+    51 => 
     array (
       0 => '9406',
       1 => 'Virunurme küla',
     ),
-    50 => 
+    52 => 
     array (
       0 => '9475',
       1 => 'Voorepera küla',
@@ -4709,286 +4664,78 @@ return ["counties" => array (
     ),
     8 => 
     array (
+      0 => '5356',
+      1 => 'Narva-Jõesuu linn',
+    ),
+    9 => 
+    array (
       0 => '5663',
       1 => 'Olgina alevik',
     ),
-    9 => 
+    10 => 
     array (
       0 => '6084',
       1 => 'Peeterristi küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '6126',
       1 => 'Perjatsi küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '6265',
       1 => 'Pimestiku küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '6396',
       1 => 'Puhkova küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '7619',
       1 => 'Sinimäe alevik',
     ),
-    14 => 
+    15 => 
     array (
       0 => '7631',
       1 => 'Sirgala küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '7674',
       1 => 'Soldina küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '7910',
       1 => 'Sõtke küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '8530',
       1 => 'Tõrvajõe küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '8619',
       1 => 'Udria küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '8895',
       1 => 'Vaivara küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '9314',
       1 => 'Viivikonna küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '9444',
       1 => 'Vodava küla',
-    ),
-  ),
-  '0250' => 
-  array (
-    0 => 
-    array (
-      0 => '1212',
-      1 => 'Altküla',
-    ),
-    1 => 
-    array (
-      0 => '1253',
-      1 => 'Amula küla',
-    ),
-    2 => 
-    array (
-      0 => '1524',
-      1 => 'Edise küla',
-    ),
-    3 => 
-    array (
-      0 => '2271',
-      1 => 'Jõhvi küla',
-    ),
-    4 => 
-    array (
-      0 => '2350',
-      1 => 'Järve küla',
-    ),
-    5 => 
-    array (
-      0 => '2420',
-      1 => 'Kaasikaia küla',
-    ),
-    6 => 
-    array (
-      0 => '2429',
-      1 => 'Kaasikvälja küla',
-    ),
-    7 => 
-    array (
-      0 => '2448',
-      1 => 'Kabelimetsa küla',
-    ),
-    8 => 
-    array (
-      0 => '2520',
-      1 => 'Kahula küla',
-    ),
-    9 => 
-    array (
-      0 => '3262',
-      1 => 'Kohtla-Uueküla',
-    ),
-    10 => 
-    array (
-      0 => '3265',
-      1 => 'Kohtla-Nõmme alev',
-    ),
-    11 => 
-    array (
-      0 => '3269',
-      1 => 'Kohtla küla',
-    ),
-    12 => 
-    array (
-      0 => '3375',
-      1 => 'Konju küla',
-    ),
-    13 => 
-    array (
-      0 => '3461',
-      1 => 'Kose küla',
-    ),
-    14 => 
-    array (
-      0 => '3477',
-      1 => 'Kotinuka küla',
-    ),
-    15 => 
-    array (
-      0 => '3562',
-      1 => 'Kukruse küla',
-    ),
-    16 => 
-    array (
-      0 => '4389',
-      1 => 'Linna küla',
-    ),
-    17 => 
-    array (
-      0 => '4799',
-      1 => 'Martsa küla',
-    ),
-    18 => 
-    array (
-      0 => '4896',
-      1 => 'Metsamägara küla',
-    ),
-    19 => 
-    array (
-      0 => '5142',
-      1 => 'Mõisamaa küla',
-    ),
-    20 => 
-    array (
-      0 => '5680',
-      1 => 'Ontika küla',
-    ),
-    21 => 
-    array (
-      0 => '5793',
-      1 => 'Paate küla',
-    ),
-    22 => 
-    array (
-      0 => '5884',
-      1 => 'Pajualuse küla',
-    ),
-    23 => 
-    array (
-      0 => '5999',
-      1 => 'Pargitaguse küla',
-    ),
-    24 => 
-    array (
-      0 => '6050',
-      1 => 'Pauliku küla',
-    ),
-    25 => 
-    array (
-      0 => '6081',
-      1 => 'Peeri küla',
-    ),
-    26 => 
-    array (
-      0 => '6455',
-      1 => 'Puru küla',
-    ),
-    27 => 
-    array (
-      0 => '6582',
-      1 => 'Päite küla',
-    ),
-    28 => 
-    array (
-      0 => '6656',
-      1 => 'Pühajõe küla',
-    ),
-    29 => 
-    array (
-      0 => '7062',
-      1 => 'Roodu küla',
-    ),
-    30 => 
-    array (
-      0 => '7348',
-      1 => 'Saka küla',
-    ),
-    31 => 
-    array (
-      0 => '7551',
-      1 => 'Servaääre küla',
-    ),
-    32 => 
-    array (
-      0 => '7677',
-      1 => 'Sompa küla',
-    ),
-    33 => 
-    array (
-      0 => '8114',
-      1 => 'Tammiku alevik',
-    ),
-    34 => 
-    array (
-      0 => '8275',
-      1 => 'Toila alevik',
-    ),
-    35 => 
-    array (
-      0 => '8563',
-      1 => 'Täkumetsa küla',
-    ),
-    36 => 
-    array (
-      0 => '8647',
-      1 => 'Uikala küla',
-    ),
-    37 => 
-    array (
-      0 => '8900',
-      1 => 'Vaivina küla',
-    ),
-    38 => 
-    array (
-      0 => '8914',
-      1 => 'Valaste küla',
-    ),
-    39 => 
-    array (
-      0 => '9432',
-      1 => 'Vitsiku küla',
-    ),
-    40 => 
-    array (
-      0 => '9453',
-      1 => 'Voka küla',
-    ),
-    41 => 
-    array (
-      0 => '9455',
-      1 => 'Voka alevik',
     ),
   ),
   '0247' => 
@@ -5040,435 +4787,440 @@ return ["counties" => array (
     ),
     9 => 
     array (
+      0 => '2262',
+      1 => 'Jõgeva linn',
+    ),
+    10 => 
+    array (
       0 => '2284',
       1 => 'Jõune küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '2360',
       1 => 'Järvepera küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '2403',
       1 => 'Kaarepere küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '2436',
       1 => 'Kaave küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '2495',
       1 => 'Kaera küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '2523',
       1 => 'Kaiavere küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '2688',
       1 => 'Kantküla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '2818',
       1 => 'Kassinurme küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '2819',
       1 => 'Kassivere küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '2861',
       1 => 'Kaude küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '3178',
       1 => 'Kivijärve küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '3188',
       1 => 'Kivimäe küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '3244',
       1 => 'Kodismaa küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '3302',
       1 => 'Koimula küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '3518',
       1 => 'Kudina küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '3642',
       1 => 'Kuremaa alevik',
     ),
-    25 => 
+    26 => 
     array (
       0 => '3676',
       1 => 'Kurista küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '3769',
       1 => 'Kõnnu küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '3778',
       1 => 'Kõola küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '3894',
       1 => 'Kärde küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '4078',
       1 => 'Laiuse alevik',
     ),
-    30 => 
+    31 => 
     array (
       0 => '4080',
       1 => 'Laiusevälja küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '4175',
       1 => 'Leedi küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '4278',
       1 => 'Lemuvere küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '4342',
       1 => 'Liikatku küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '4364',
       1 => 'Liivoja küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '4367',
       1 => 'Lilastvere küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '4579',
       1 => 'Luua küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '4613',
       1 => 'Lõpe küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '4983',
       1 => 'Mooritsa küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '5023',
       1 => 'Mullavere küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '5131',
       1 => 'Mõisamaa küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '5373',
       1 => 'Nava küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '5548',
       1 => 'Näduvere küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '5684',
       1 => 'Ookatku küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '5756',
       1 => 'Oti küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '5817',
       1 => 'Paduvere küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '5870',
       1 => 'Painküla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '5902',
       1 => 'Pakaste küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '5913',
       1 => 'Palamuse alevik',
     ),
-    49 => 
+    50 => 
     array (
       0 => '5954',
       1 => 'Palupere küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '6040',
       1 => 'Patjala küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '6073',
       1 => 'Pedja küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '6233',
       1 => 'Pikkjärve küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '6344',
       1 => 'Praaklima küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '6643',
       1 => 'Pööra küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '6679',
       1 => 'Raadivere küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '6684',
       1 => 'Raaduvere küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '6727',
       1 => 'Rahivere küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '6834',
       1 => 'Rassiku küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '6879',
       1 => 'Reastvere küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '7031',
       1 => 'Rohe küla',
     ),
-    61 => 
+    62 => 
     array (
       0 => '7048',
       1 => 'Ronivere küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '7232',
       1 => 'Rääbise küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '7318',
       1 => 'Sadala alevik',
     ),
-    64 => 
+    65 => 
     array (
       0 => '7323',
       1 => 'Saduküla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '7539',
       1 => 'Selli küla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '7573',
       1 => 'Siimusti alevik',
     ),
-    67 => 
+    68 => 
     array (
       0 => '7719',
       1 => 'Soomevere küla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '7762',
       1 => 'Sudiste küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '7943',
       1 => 'Sätsuvere küla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '7983',
       1 => 'Süvalepa küla',
     ),
-    71 => 
+    72 => 
     array (
       0 => '8174',
       1 => 'Tealama küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '8188',
       1 => 'Teilma küla',
     ),
-    73 => 
+    74 => 
     array (
       0 => '8295',
       1 => 'Tooma küla',
     ),
-    74 => 
+    75 => 
     array (
       0 => '8318',
       1 => 'Toovere küla',
     ),
-    75 => 
+    76 => 
     array (
       0 => '8331',
       1 => 'Torma alevik',
     ),
-    76 => 
+    77 => 
     array (
       0 => '8404',
       1 => 'Tuimõisa küla',
     ),
-    77 => 
+    78 => 
     array (
       0 => '8480',
       1 => 'Tõikvere küla',
     ),
-    78 => 
+    79 => 
     array (
       0 => '8558',
       1 => 'Tähkvere küla',
     ),
-    79 => 
+    80 => 
     array (
       0 => '8861',
       1 => 'Vaiatu küla',
     ),
-    80 => 
+    81 => 
     array (
       0 => '8872',
       1 => 'Vaidavere küla',
     ),
-    81 => 
+    82 => 
     array (
       0 => '8879',
       1 => 'Vaimastvere küla',
     ),
-    82 => 
+    83 => 
     array (
       0 => '8979',
       1 => 'Vana-Jõgeva küla',
     ),
-    83 => 
+    84 => 
     array (
       0 => '9021',
       1 => 'Vanamõisa küla',
     ),
-    84 => 
+    85 => 
     array (
       0 => '9037',
       1 => 'Vanavälja küla',
     ),
-    85 => 
+    86 => 
     array (
       0 => '9058',
       1 => 'Varbevere küla',
     ),
-    86 => 
+    87 => 
     array (
       0 => '9333',
       1 => 'Vilina küla',
     ),
-    87 => 
+    88 => 
     array (
       0 => '9409',
       1 => 'Viruvere küla',
     ),
-    88 => 
+    89 => 
     array (
       0 => '9431',
       1 => 'Visusti küla',
     ),
-    89 => 
+    90 => 
     array (
       0 => '9489',
       1 => 'Võduvere küla',
     ),
-    90 => 
+    91 => 
     array (
       0 => '9519',
       1 => 'Võidivere küla',
     ),
-    91 => 
+    92 => 
     array (
       0 => '9529',
       1 => 'Võikvere küla',
     ),
-    92 => 
+    93 => 
     array (
       0 => '9615',
       1 => 'Vägeva küla',
     ),
-    93 => 
+    94 => 
     array (
       0 => '9655',
       1 => 'Väljaotsa küla',
     ),
-    94 => 
+    95 => 
     array (
       0 => '9721',
       1 => 'Õuna küla',
     ),
-    95 => 
+    96 => 
     array (
       0 => '9770',
       1 => 'Änkküla',
@@ -5608,160 +5360,165 @@ return ["counties" => array (
     ),
     26 => 
     array (
+      0 => '5097',
+      1 => 'Mustvee linn',
+    ),
+    27 => 
+    array (
       0 => '5367',
       1 => 'Nautrasi küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '5430',
       1 => 'Ninasi küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '5532',
       1 => 'Nõmme küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '5598',
       1 => 'Odivere küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '5673',
       1 => 'Omedu küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '5774',
       1 => 'Paadenurme küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '6067',
       1 => 'Pedassaare küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '6174',
       1 => 'Piilsi küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '6469',
       1 => 'Putu küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '6589',
       1 => 'Pällu küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '6682',
       1 => 'Raadna küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '6764',
       1 => 'Raja küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '7130',
       1 => 'Ruskavere küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '7285',
       1 => 'Kääpa küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '7303',
       1 => 'Saarjärve küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '7544',
       1 => 'Separa küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '7637',
       1 => 'Sirguvere küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '7921',
       1 => 'Sälliksaare küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '8102',
       1 => 'Tammessaare küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '8117',
       1 => 'Tammispää küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '8149',
       1 => 'Tarakvere küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '8210',
       1 => 'Tiheda küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '8453',
       1 => 'Tuulavere küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '8664',
       1 => 'Ulvi küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '8819',
       1 => 'Vadi küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '9029',
       1 => 'Vanassaare küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '9116',
       1 => 'Vassevere küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '9181',
       1 => 'Veia küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '9364',
       1 => 'Vilusi küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '9466',
       1 => 'Voore küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '9596',
       1 => 'Võtikvere küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '9773',
       1 => 'Änniksaare küla',
@@ -5986,90 +5743,95 @@ return ["counties" => array (
     ),
     43 => 
     array (
+      0 => '6537',
+      1 => 'Põltsamaa linn',
+    ),
+    44 => 
+    array (
       0 => '7175',
       1 => 'Rõstla küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '7220',
       1 => 'Räsna küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '7753',
       1 => 'Sopimetsa küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '7798',
       1 => 'Sulustvere küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '8113',
       1 => 'Tammiku küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '8141',
       1 => 'Tapiku küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '8483',
       1 => 'Tõivere küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '8515',
       1 => 'Tõrenurme küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '8537',
       1 => 'Tõrve küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '8674',
       1 => 'Umbusi küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '8772',
       1 => 'Uuevälja küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '9437',
       1 => 'Vitsjärve küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '9486',
       1 => 'Vorsti küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '9501',
       1 => 'Võhmanõmme küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '9536',
       1 => 'Võisiku küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '9612',
       1 => 'Vägari küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '9621',
       1 => 'Väike-Kamari küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '9654',
       1 => 'Väljataguse küla',
@@ -6722,90 +6484,95 @@ return ["counties" => array (
     ),
     22 => 
     array (
+      0 => '5861',
+      1 => 'Paide linn',
+    ),
+    23 => 
+    array (
       0 => '6214',
       1 => 'Pikaküla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '6405',
       1 => 'Puiatu küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '6440',
       1 => 'Purdi küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '7082',
       1 => 'Roosna-Alliku alevik',
     ),
-    26 => 
+    27 => 
     array (
       0 => '7428',
       1 => 'Sargvere küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '7508',
       1 => 'Seinapalu küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '7594',
       1 => 'Sillaotsa küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '7863',
       1 => 'Suurpalu küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '7889',
       1 => 'Sõmeru küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '8152',
       1 => 'Tarbja küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '8570',
       1 => 'Tännapere küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '8917',
       1 => 'Valasti küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '8935',
       1 => 'Valgma küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '9227',
       1 => 'Veskiaru küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '9302',
       1 => 'Viisu küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '9381',
       1 => 'Viraksaare küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '9602',
       1 => 'Võõbu küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '9689',
       1 => 'Vedruka küla',
@@ -7050,50 +6817,55 @@ return ["counties" => array (
     ),
     47 => 
     array (
+      0 => '8594',
+      1 => 'Türi linn',
+    ),
+    48 => 
+    array (
       0 => '8597',
       1 => 'Türi-Alliku küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '9337',
       1 => 'Vilita küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '9352',
       1 => 'Villevere küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '9425',
       1 => 'Vissuvere küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '9653',
       1 => 'Väljaotsa küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '9656',
       1 => 'Väljataguse küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '9692',
       1 => 'Väätsa alevik',
     ),
-    54 => 
+    55 => 
     array (
       0 => '9741',
       1 => 'Äiamaa küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '9762',
       1 => 'Änari küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '9823',
       1 => 'Ülejõe küla',
@@ -7138,255 +6910,260 @@ return ["counties" => array (
     ),
     7 => 
     array (
+      0 => '1692',
+      1 => 'Haapsalu linn',
+    ),
+    8 => 
+    array (
       0 => '1711',
       1 => 'Haeska küla',
     ),
-    8 => 
+    9 => 
     array (
       0 => '1824',
       1 => 'Herjava küla',
     ),
-    9 => 
+    10 => 
     array (
       0 => '1875',
       1 => 'Hobulaiu küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '2285',
       1 => 'Jõõdre küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '2466',
       1 => 'Kabrametsa küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '2472',
       1 => 'Kadaka küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '2497',
       1 => 'Kaevere küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '3027',
       1 => 'Kiideva küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '3090',
       1 => 'Kiltsi küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '3171',
       1 => 'Kiviküla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '3276',
       1 => 'Koheri küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '3281',
       1 => 'Koidu küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '3341',
       1 => 'Kolila küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '3361',
       1 => 'Kolu küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '3849',
       1 => 'Käpla küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '4063',
       1 => 'Laheva küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '4102',
       1 => 'Lannuste küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '4351',
       1 => 'Liivaküla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '4426',
       1 => 'Litu küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '4592',
       1 => 'Lõbe küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '4883',
       1 => 'Metsaküla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '5186',
       1 => 'Mäeküla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '5216',
       1 => 'Mägari küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '5527',
       1 => 'Nõmme küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '5971',
       1 => 'Panga küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '5989',
       1 => 'Paralepa alevik',
     ),
-    33 => 
+    34 => 
     array (
       0 => '6403',
       1 => 'Puiatu küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '6413',
       1 => 'Puise küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '6462',
       1 => 'Pusku küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '6496',
       1 => 'Põgari-Sassi küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '6959',
       1 => 'Parila küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '7029',
       1 => 'Rohense küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '7036',
       1 => 'Rohuküla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '7120',
       1 => 'Rummu küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '7275',
       1 => 'Saanika küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '7283',
       1 => 'Saardu küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '7540',
       1 => 'Sepaküla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '7606',
       1 => 'Sinalepa küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '8116',
       1 => 'Tammiku küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '8321',
       1 => 'Tanska küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '8465',
       1 => 'Tuuru küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '8690',
       1 => 'Uneste küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '8768',
       1 => 'Uuemõisa küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '8769',
       1 => 'Uuemõisa alevik',
     ),
-    51 => 
+    52 => 
     array (
       0 => '8929',
       1 => 'Valgevälja küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '9091',
       1 => 'Varni küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '9343',
       1 => 'Vilkla küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '9568',
       1 => 'Võnnu küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '9616',
       1 => 'Väike-Ahli küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '9673',
       1 => 'Vätse küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '9853',
       1 => 'Üsse küla',
@@ -7412,12 +7189,12 @@ return ["counties" => array (
     3 => 
     array (
       0 => '1469',
-      1 => 'Aulepa küla / Dirslätt',
+      1 => 'Aulepa küla/Dirslätt',
     ),
     4 => 
     array (
       0 => '1505',
-      1 => 'Dirhami küla / Derhamn',
+      1 => 'Dirhami küla/Derhamn',
     ),
     5 => 
     array (
@@ -7427,12 +7204,12 @@ return ["counties" => array (
     6 => 
     array (
       0 => '1556',
-      1 => 'Einbi küla / Enby',
+      1 => 'Einbi küla/Enby',
     ),
     7 => 
     array (
       0 => '1571',
-      1 => 'Elbiku küla / Ölbäck',
+      1 => 'Elbiku küla/Ölbäck',
     ),
     8 => 
     array (
@@ -7442,7 +7219,7 @@ return ["counties" => array (
     9 => 
     array (
       0 => '1760',
-      1 => 'Hara küla / Harga',
+      1 => 'Hara küla/Harga',
     ),
     10 => 
     array (
@@ -7457,7 +7234,7 @@ return ["counties" => array (
     12 => 
     array (
       0 => '1964',
-      1 => 'Höbringi küla / Höbring',
+      1 => 'Höbringi küla/Höbring',
     ),
     13 => 
     array (
@@ -7577,7 +7354,7 @@ return ["counties" => array (
     36 => 
     array (
       0 => '3514',
-      1 => 'Kudani küla / Gutanäs',
+      1 => 'Kudani küla/Gutanäs',
     ),
     37 => 
     array (
@@ -7707,7 +7484,7 @@ return ["counties" => array (
     62 => 
     array (
       0 => '5523',
-      1 => 'Väike-Nõmmküla / Persåker',
+      1 => 'Väike-Nõmmküla/Persåker',
     ),
     63 => 
     array (
@@ -7737,7 +7514,7 @@ return ["counties" => array (
     68 => 
     array (
       0 => '5743',
-      1 => 'Osmussaare küla / Odensholm',
+      1 => 'Osmussaare küla/Odensholm',
     ),
     69 => 
     array (
@@ -7747,7 +7524,7 @@ return ["counties" => array (
     70 => 
     array (
       0 => '6029',
-      1 => 'Paslepa küla / Pasklep',
+      1 => 'Paslepa küla/Pasklep',
     ),
     71 => 
     array (
@@ -7777,7 +7554,7 @@ return ["counties" => array (
     76 => 
     array (
       0 => '6669',
-      1 => 'Pürksi küla / Birkas',
+      1 => 'Pürksi küla/Birkas',
     ),
     77 => 
     array (
@@ -7797,7 +7574,7 @@ return ["counties" => array (
     80 => 
     array (
       0 => '6968',
-      1 => 'Riguldi küla / Rickul',
+      1 => 'Riguldi küla/Rickul',
     ),
     81 => 
     array (
@@ -7807,7 +7584,7 @@ return ["counties" => array (
     82 => 
     array (
       0 => '7077',
-      1 => 'Rooslepa küla / Roslep',
+      1 => 'Rooslepa küla/Roslep',
     ),
     83 => 
     array (
@@ -7822,7 +7599,7 @@ return ["counties" => array (
     85 => 
     array (
       0 => '7284',
-      1 => 'Saare küla / Lyckholm',
+      1 => 'Saare küla/Lyckholm',
     ),
     86 => 
     array (
@@ -7857,17 +7634,17 @@ return ["counties" => array (
     92 => 
     array (
       0 => '7760',
-      1 => 'Spithami küla / Spithamn',
+      1 => 'Spithami küla/Spithamn',
     ),
     93 => 
     array (
       0 => '7817',
-      1 => 'Sutlepa küla / Sutlep',
+      1 => 'Sutlepa küla/Sutlep',
     ),
     94 => 
     array (
       0 => '7829',
-      1 => 'Suur-Nõmmküla / Klottorp',
+      1 => 'Suur-Nõmmküla/Klottorp',
     ),
     95 => 
     array (
@@ -7887,7 +7664,7 @@ return ["counties" => array (
     98 => 
     array (
       0 => '8074',
-      1 => 'Tahu küla / Skåtanäs',
+      1 => 'Tahu küla/Skåtanäs',
     ),
     99 => 
     array (
@@ -7897,7 +7674,7 @@ return ["counties" => array (
     100 => 
     array (
       0 => '8187',
-      1 => 'Telise küla / Tällnäs',
+      1 => 'Telise küla/Tällnäs',
     ),
     101 => 
     array (
@@ -7907,7 +7684,7 @@ return ["counties" => array (
     102 => 
     array (
       0 => '8409',
-      1 => 'Tuksi küla / Bergsby',
+      1 => 'Tuksi küla/Bergsby',
     ),
     103 => 
     array (
@@ -7942,7 +7719,7 @@ return ["counties" => array (
     109 => 
     array (
       0 => '9011',
-      1 => 'Vanaküla / Gambyn',
+      1 => 'Vanaküla/Gambyn',
     ),
     110 => 
     array (
@@ -9141,45 +8918,55 @@ return ["counties" => array (
     ),
     47 => 
     array (
+      0 => '8132',
+      1 => 'Tamsalu linn',
+    ),
+    48 => 
+    array (
+      0 => '8140',
+      1 => 'Tapa linn',
+    ),
+    49 => 
+    array (
       0 => '8549',
       1 => 'Tõõrakõrve küla',
     ),
-    48 => 
+    50 => 
     array (
       0 => '8604',
       1 => 'Türje küla',
     ),
-    49 => 
+    51 => 
     array (
       0 => '8754',
       1 => 'Uudeküla',
     ),
-    50 => 
+    52 => 
     array (
       0 => '8820',
       1 => 'Vadiküla',
     ),
-    51 => 
+    53 => 
     array (
       0 => '8836',
       1 => 'Vahakulmu küla',
     ),
-    52 => 
+    54 => 
     array (
       0 => '8903',
       1 => 'Vajangu küla',
     ),
-    53 => 
+    55 => 
     array (
       0 => '9429',
       1 => 'Vistla küla',
     ),
-    54 => 
+    56 => 
     array (
       0 => '9505',
       1 => 'Võhmetu küla',
     ),
-    55 => 
+    57 => 
     array (
       0 => '9506',
       1 => 'Võhmuta küla',
@@ -9637,160 +9424,165 @@ return ["counties" => array (
     ),
     13 => 
     array (
+      0 => '3612',
+      1 => 'Kunda linn',
+    ),
+    14 => 
+    array (
       0 => '3688',
       1 => 'Kurna küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '3709',
       1 => 'Kutsala küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '3725',
       1 => 'Kuura küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '3803',
       1 => 'Kõrkküla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '3814',
       1 => 'Kõrtsialuse küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '4305',
       1 => 'Letipea küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '4408',
       1 => 'Linnuse küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '4736',
       1 => 'Mahu küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '4755',
       1 => 'Malla küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '4786',
       1 => 'Marinu küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '4926',
       1 => 'Metsavälja küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '5456',
       1 => 'Nugeri küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '5651',
       1 => 'Ojaküla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '5739',
       1 => 'Oru küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '5791',
       1 => 'Paasküla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '5802',
       1 => 'Pada-Aruküla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '5804',
       1 => 'Pada küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '6219',
       1 => 'Pikaristi küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '6612',
       1 => 'Pärna küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '6821',
       1 => 'Rannu küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '7407',
       1 => 'Samma küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '7530',
       1 => 'Selja küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '7557',
       1 => 'Siberi küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '7602',
       1 => 'Simunamäe küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '8303',
       1 => 'Toomika küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '8602',
       1 => 'Tüükri küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '8704',
       1 => 'Unukse küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '9096',
       1 => 'Varudi küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '9121',
       1 => 'Vasta küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '9351',
       1 => 'Villavere küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '9399',
       1 => 'Viru-Nigula alevik',
     ),
-    44 => 
+    45 => 
     array (
       0 => '9578',
       1 => 'Võrkla küla',
@@ -10636,120 +10428,125 @@ return ["counties" => array (
     ),
     49 => 
     array (
+      0 => '6536',
+      1 => 'Põlva linn',
+    ),
+    50 => 
+    array (
       0 => '6825',
       1 => 'Rasina küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '7071',
       1 => 'Roosi küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '7098',
       1 => 'Rosma küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '7501',
       1 => 'Savimäe küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '7660',
       1 => 'Soesaare küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '7855',
       1 => 'Suurküla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '7858',
       1 => 'Suurmetsa küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '7918',
       1 => 'Säkna küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '7964',
       1 => 'Säässaare küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '8028',
       1 => 'Taevaskoja küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '8198',
       1 => 'Terepi küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '8243',
       1 => 'Tilsi küla',
     ),
-    61 => 
+    62 => 
     array (
       0 => '8353',
       1 => 'Tromsi küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '8574',
       1 => 'Tännassilma küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '8644',
       1 => 'Uibujärve küla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '8922',
       1 => 'Valgemetsa küla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '8927',
       1 => 'Valgesoo küla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '8989',
       1 => 'Vana-Koiola küla',
     ),
-    67 => 
+    68 => 
     array (
       0 => '9010',
       1 => 'Vanaküla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '9023',
       1 => 'Vanamõisa küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '9072',
       1 => 'Vardja küla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '9128',
       1 => 'Vastse-Kuuste alevik',
     ),
-    71 => 
+    72 => 
     array (
       0 => '9300',
       1 => 'Viisli küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '9470',
       1 => 'Vooreküla',
@@ -10969,120 +10766,125 @@ return ["counties" => array (
     ),
     42 => 
     array (
+      0 => '7216',
+      1 => 'Räpina linn',
+    ),
+    43 => 
+    array (
       0 => '7289',
       1 => 'Saareküla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '7439',
       1 => 'Sarvemäe küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '7579',
       1 => 'Sikakurmu küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '7595',
       1 => 'Sillapää küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '7698',
       1 => 'Soohara küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '7835',
       1 => 'Suure-Veerksu küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '7975',
       1 => 'Sülgoja küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '7981',
       1 => 'Süvahavva küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '8244',
       1 => 'Timo küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '8289',
       1 => 'Toolamaa küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '8313',
       1 => 'Tooste küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '8370',
       1 => 'Tsirksi küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '9080',
       1 => 'Vareste küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '9175',
       1 => 'Väike-Veerksu küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '9223',
       1 => 'Veriora alevik',
     ),
-    57 => 
+    58 => 
     array (
       0 => '9224',
       1 => 'Verioramõisa küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '9294',
       1 => 'Viira küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '9369',
       1 => 'Viluste küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '9377',
       1 => 'Vinso küla',
     ),
-    61 => 
+    62 => 
     array (
       0 => '9511',
       1 => 'Võiardi küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '9527',
       1 => 'Võika küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '9599',
       1 => 'Võuküla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '9608',
       1 => 'Võõpsu alevik',
     ),
-    65 => 
+    66 => 
     array (
       0 => '9664',
       1 => 'Vändra küla',
@@ -11528,500 +11330,505 @@ return ["counties" => array (
     ),
     51 => 
     array (
+      0 => '4330',
+      1 => 'Lihula linn',
+    ),
+    52 => 
+    array (
       0 => '4406',
       1 => 'Linnuse küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '4429',
       1 => 'Liustemäe küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '4607',
       1 => 'Lõo küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '4611',
       1 => 'Lõpe küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '4695',
       1 => 'Maade küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '4742',
       1 => 'Maikse küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '4807',
       1 => 'Massu küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '4820',
       1 => 'Matsalu küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '4824',
       1 => 'Matsi küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '4847',
       1 => 'Meelva küla',
     ),
-    61 => 
+    62 => 
     array (
       0 => '4881',
       1 => 'Mereäärse küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '4929',
       1 => 'Metsküla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '4942',
       1 => 'Mihkli küla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '5049',
       1 => 'Muriste küla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '5127',
       1 => 'Mõisaküla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '5173',
       1 => 'Mõtsu küla',
     ),
-    67 => 
+    68 => 
     array (
       0 => '5174',
       1 => 'Mõisimaa küla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '5202',
       1 => 'Mäense küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '5247',
       1 => 'Mäliküla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '5344',
       1 => 'Naissoo küla',
     ),
-    71 => 
+    72 => 
     array (
       0 => '5385',
       1 => 'Nedrema küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '5399',
       1 => 'Nehatu küla',
     ),
-    73 => 
+    74 => 
     array (
       0 => '5464',
       1 => 'Nurme küla',
     ),
-    74 => 
+    75 => 
     array (
       0 => '5473',
       1 => 'Nurmsi küla',
     ),
-    75 => 
+    76 => 
     array (
       0 => '5530',
       1 => 'Nõmme küla',
     ),
-    76 => 
+    77 => 
     array (
       0 => '5563',
       1 => 'Nätsi küla',
     ),
-    77 => 
+    78 => 
     array (
       0 => '5638',
       1 => 'Oidrema küla',
     ),
-    78 => 
+    79 => 
     array (
       0 => '5776',
       1 => 'Paadrema küla',
     ),
-    79 => 
+    80 => 
     array (
       0 => '5801',
       1 => 'Paatsalu küla',
     ),
-    80 => 
+    81 => 
     array (
       0 => '5845',
       1 => 'Pagasi küla',
     ),
-    81 => 
+    82 => 
     array (
       0 => '5869',
       1 => 'Paimvere küla',
     ),
-    82 => 
+    83 => 
     array (
       0 => '5889',
       1 => 'Pajumaa küla',
     ),
-    83 => 
+    84 => 
     array (
       0 => '5924',
       1 => 'Palatu küla',
     ),
-    84 => 
+    85 => 
     array (
       0 => '5990',
       1 => 'Parasmaa küla',
     ),
-    85 => 
+    86 => 
     array (
       0 => '6013',
       1 => 'Parivere küla',
     ),
-    86 => 
+    87 => 
     array (
       0 => '6054',
       1 => 'Peantse küla',
     ),
-    87 => 
+    88 => 
     array (
       0 => '6055',
       1 => 'Peanse küla',
     ),
-    88 => 
+    89 => 
     array (
       0 => '6096',
       1 => 'Penijõe küla',
     ),
-    89 => 
+    90 => 
     array (
       0 => '6131',
       1 => 'Petaaluse küla',
     ),
-    90 => 
+    91 => 
     array (
       0 => '6135',
       1 => 'Piha küla',
     ),
-    91 => 
+    92 => 
     array (
       0 => '6200',
       1 => 'Piisu küla',
     ),
-    92 => 
+    93 => 
     array (
       0 => '6227',
       1 => 'Pikavere küla',
     ),
-    93 => 
+    94 => 
     array (
       0 => '6286',
       1 => 'Pivarootsi küla',
     ),
-    94 => 
+    95 => 
     array (
       0 => '6302',
       1 => 'Poanse küla',
     ),
-    95 => 
+    96 => 
     array (
       0 => '6707',
       1 => 'Rabavere küla',
     ),
-    96 => 
+    97 => 
     array (
       0 => '6717',
       1 => 'Raespa küla',
     ),
-    97 => 
+    98 => 
     array (
       0 => '6722',
       1 => 'Raheste küla',
     ),
-    98 => 
+    99 => 
     array (
       0 => '6778',
       1 => 'Rame küla',
     ),
-    99 => 
+    100 => 
     array (
       0 => '6802',
       1 => 'Rannaküla',
     ),
-    100 => 
+    101 => 
     array (
       0 => '6827',
       1 => 'Rannu küla',
     ),
-    101 => 
+    102 => 
     array (
       0 => '6865',
       1 => 'Rauksi küla',
     ),
-    102 => 
+    103 => 
     array (
       0 => '6961',
       1 => 'Ridase küla',
     ),
-    103 => 
+    104 => 
     array (
       0 => '7064',
       1 => 'Rooglaiu küla',
     ),
-    104 => 
+    105 => 
     array (
       0 => '7087',
       1 => 'Rootsi küla',
     ),
-    105 => 
+    106 => 
     array (
       0 => '7091',
       1 => 'Rootsi-Aruküla',
     ),
-    106 => 
+    107 => 
     array (
       0 => '7117',
       1 => 'Rumba küla',
     ),
-    107 => 
+    108 => 
     array (
       0 => '7259',
       1 => 'Rädi küla',
     ),
-    108 => 
+    109 => 
     array (
       0 => '7287',
       1 => 'Saare küla',
     ),
-    109 => 
+    110 => 
     array (
       0 => '7310',
       1 => 'Saastna küla',
     ),
-    110 => 
+    111 => 
     array (
       0 => '7373',
       1 => 'Salavere küla',
     ),
-    111 => 
+    112 => 
     array (
       0 => '7379',
       1 => 'Salevere küla',
     ),
-    112 => 
+    113 => 
     array (
       0 => '7462',
       1 => 'Saulepi küla',
     ),
-    113 => 
+    114 => 
     array (
       0 => '7511',
       1 => 'Seira küla',
     ),
-    114 => 
+    115 => 
     array (
       0 => '7519',
       1 => 'Seli küla',
     ),
-    115 => 
+    116 => 
     array (
       0 => '7532',
       1 => 'Selja küla',
     ),
-    116 => 
+    117 => 
     array (
       0 => '7699',
       1 => 'Sookalda küla',
     ),
-    117 => 
+    118 => 
     array (
       0 => '7702',
       1 => 'Sookatse küla',
     ),
-    118 => 
+    119 => 
     array (
       0 => '7749',
       1 => 'Soovälja küla',
     ),
-    119 => 
+    120 => 
     array (
       0 => '7782',
       1 => 'Kirikuküla',
     ),
-    120 => 
+    121 => 
     array (
       0 => '8088',
       1 => 'Tamba küla',
     ),
-    121 => 
+    122 => 
     array (
       0 => '8091',
       1 => 'Kõima küla',
     ),
-    122 => 
+    123 => 
     array (
       0 => '8092',
       1 => 'Tamme küla',
     ),
-    123 => 
+    124 => 
     array (
       0 => '8157',
       1 => 'Tarva küla',
     ),
-    124 => 
+    125 => 
     array (
       0 => '8220',
       1 => 'Tiilima küla',
     ),
-    125 => 
+    126 => 
     array (
       0 => '8401',
       1 => 'Tuhu küla',
     ),
-    126 => 
+    127 => 
     array (
       0 => '8446',
       1 => 'Tuudi küla',
     ),
-    127 => 
+    128 => 
     array (
       0 => '8478',
       1 => 'Tõitse küla',
     ),
-    128 => 
+    129 => 
     array (
       0 => '8541',
       1 => 'Tõusi küla',
     ),
-    129 => 
+    130 => 
     array (
       0 => '8577',
       1 => 'Täpsi küla',
     ),
-    130 => 
+    131 => 
     array (
       0 => '8663',
       1 => 'Ullaste küla',
     ),
-    131 => 
+    132 => 
     array (
       0 => '8666',
       1 => 'Uluste küla',
     ),
-    132 => 
+    133 => 
     array (
       0 => '8712',
       1 => 'Ura küla',
     ),
-    133 => 
+    134 => 
     array (
       0 => '8722',
       1 => 'Urita küla',
     ),
-    134 => 
+    135 => 
     array (
       0 => '8830',
       1 => 'Vagivere küla',
     ),
-    135 => 
+    136 => 
     array (
       0 => '8893',
       1 => 'Vaiste küla',
     ),
-    136 => 
+    137 => 
     array (
       0 => '8974',
       1 => 'Valuste küla',
     ),
-    137 => 
+    138 => 
     array (
       0 => '9035',
       1 => 'Vanamõisa küla',
     ),
-    138 => 
+    139 => 
     array (
       0 => '9061',
       1 => 'Varbla küla',
     ),
-    139 => 
+    140 => 
     array (
       0 => '9134',
       1 => 'Vastaba küla',
     ),
-    140 => 
+    141 => 
     array (
       0 => '9141',
       1 => 'Vatla küla',
     ),
-    141 => 
+    142 => 
     array (
       0 => '9192',
       1 => 'Veltsa küla',
     ),
-    142 => 
+    143 => 
     array (
       0 => '9388',
       1 => 'Virtsu alevik',
     ),
-    143 => 
+    144 => 
     array (
       0 => '9478',
       1 => 'Voose küla',
     ),
-    144 => 
+    145 => 
     array (
       0 => '9499',
       1 => 'Võhma küla',
     ),
-    145 => 
+    146 => 
     array (
       0 => '9528',
       1 => 'Võigaste küla',
     ),
-    146 => 
+    147 => 
     array (
       0 => '9544',
       1 => 'Võitra küla',
     ),
-    147 => 
+    148 => 
     array (
       0 => '9584',
       1 => 'Võrungi küla',
     ),
-    148 => 
+    149 => 
     array (
       0 => '9691',
       1 => 'Õepa küla',
     ),
-    149 => 
+    150 => 
     array (
       0 => '9742',
       1 => 'Äila küla',
     ),
-    150 => 
+    151 => 
     array (
       0 => '9791',
       1 => 'Õhu küla',
@@ -12206,90 +12013,95 @@ return ["counties" => array (
     ),
     35 => 
     array (
+      0 => '6619',
+      1 => 'Pärnu linn',
+    ),
+    36 => 
+    array (
       0 => '6783',
       1 => 'Rammuka küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '6819',
       1 => 'Ranniku küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '6962',
       1 => 'Ridalepa küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '7300',
       1 => 'Saari küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '7460',
       1 => 'Saulepa küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '7526',
       1 => 'Seliste küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '7536',
       1 => 'Seljametsa küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '7591',
       1 => 'Silla küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '7663',
       1 => 'Soeva küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '7723',
       1 => 'Soomra küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '8131',
       1 => 'Tammuru küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '8463',
       1 => 'Tuuraste küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '8475',
       1 => 'Tõhela küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '8488',
       1 => 'Tõlli küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '8540',
       1 => 'Tõstamaa alevik',
     ),
-    50 => 
+    51 => 
     array (
       0 => '8924',
       1 => 'Valgeranna küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '9113',
       1 => 'Vaskrääma küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '9669',
       1 => 'Värati küla',
@@ -12797,135 +12609,140 @@ return ["counties" => array (
     ),
     10 => 
     array (
+      0 => '3083',
+      1 => 'Kilingi-Nõmme linn',
+    ),
+    11 => 
+    array (
       0 => '3840',
       1 => 'Kõveri küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '3928',
       1 => 'Kärsu küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '4104',
       1 => 'Lanksaare küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '4235',
       1 => 'Leipste küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '4440',
       1 => 'Lodja küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '4628',
       1 => 'Lähkma küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '4782',
       1 => 'Marana küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '4787',
       1 => 'Marina küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '4916',
       1 => 'Metsaääre küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '5085',
       1 => 'Mustla küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '5640',
       1 => 'Oissaare küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '6143',
       1 => 'Pihke küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '6705',
       1 => 'Rabaküla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '6919',
       1 => 'Reinu küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '6922',
-      1 => 'Reinse',
+      1 => 'Reinse küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '7013',
       1 => 'Ristiküla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '7280',
       1 => 'Saarde küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '7463',
       1 => 'Saunametsa küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '7560',
       1 => 'Sigaste küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '7807',
       1 => 'Surju küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '8083',
       1 => 'Tali küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '8213',
       1 => 'Tihemetsa alevik',
     ),
-    32 => 
+    33 => 
     array (
       0 => '8458',
       1 => 'Tuuliku küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '8485',
       1 => 'Tõlla küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '9166',
       1 => 'Veelikse küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '9297',
       1 => 'Viisireiu küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '9652',
       1 => 'Väljaküla',
@@ -13100,55 +12917,60 @@ return ["counties" => array (
     ),
     33 => 
     array (
+      0 => '7607',
+      1 => 'Sindi linn',
+    ),
+    34 => 
+    array (
       0 => '7776',
       1 => 'Suigu küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '7996',
       1 => 'Taali küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '8019',
       1 => 'Tabria küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '8120',
       1 => 'Tammiste küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '8269',
       1 => 'Tohera küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '8326',
       1 => 'Tori alevik',
     ),
-    39 => 
+    40 => 
     array (
       0 => '8720',
       1 => 'Urge küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '8730',
       1 => 'Urumarja küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '8885',
       1 => 'Vainu küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '9555',
       1 => 'Võlla küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '9560',
       1 => 'Võlli küla',
@@ -14422,120 +14244,125 @@ return ["counties" => array (
     ),
     64 => 
     array (
+      0 => '6826',
+      1 => 'Rapla linn',
+    ),
+    65 => 
+    array (
       0 => '6954',
       1 => 'Ridaküla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '7255',
       1 => 'Röa küla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '7319',
       1 => 'Sadala küla',
     ),
-    67 => 
+    68 => 
     array (
       0 => '7518',
       1 => 'Seli küla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '7586',
       1 => 'Sikeldi küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '7796',
       1 => 'Sulupere küla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '7840',
       1 => 'Suurekivi küla',
     ),
-    71 => 
+    72 => 
     array (
       0 => '8138',
       1 => 'Tamsi küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '8139',
       1 => 'Tapupere küla',
     ),
-    73 => 
+    74 => 
     array (
       0 => '8279',
       1 => 'Tolla küla',
     ),
-    74 => 
+    75 => 
     array (
       0 => '8305',
       1 => 'Toomja küla',
     ),
-    75 => 
+    76 => 
     array (
       0 => '8441',
       1 => 'Tuti küla',
     ),
-    76 => 
+    77 => 
     array (
       0 => '8518',
       1 => 'Tõrma küla',
     ),
-    77 => 
+    78 => 
     array (
       0 => '8677',
       1 => 'Ummaru küla',
     ),
-    78 => 
+    79 => 
     array (
       0 => '8788',
       1 => 'Uusküla',
     ),
-    79 => 
+    80 => 
     array (
       0 => '8838',
       1 => 'Vahakõnnu küla',
     ),
-    80 => 
+    81 => 
     array (
       0 => '8842',
       1 => 'Vahastu küla',
     ),
-    81 => 
+    82 => 
     array (
       0 => '8961',
       1 => 'Valli küla',
     ),
-    82 => 
+    83 => 
     array (
       0 => '8971',
       1 => 'Valtu küla',
     ),
-    83 => 
+    84 => 
     array (
       0 => '8982',
       1 => 'Vana-Kaiu küla',
     ),
-    84 => 
+    85 => 
     array (
       0 => '9046',
       1 => 'Vankse küla',
     ),
-    85 => 
+    86 => 
     array (
       0 => '9050',
       1 => 'Vaopere küla',
     ),
-    86 => 
+    87 => 
     array (
       0 => '9729',
       1 => 'Äherdi küla',
     ),
-    87 => 
+    88 => 
     array (
       0 => '9831',
       1 => 'Ülejõe küla',
@@ -15506,1490 +15333,1495 @@ return ["counties" => array (
     ),
     138 => 
     array (
+      0 => '3655',
+      1 => 'Kuressaare linn',
+    ),
+    139 => 
+    array (
       0 => '3661',
       1 => 'Kurevere küla',
     ),
-    139 => 
+    140 => 
     array (
       0 => '3712',
       1 => 'Kuumi küla',
     ),
-    140 => 
+    141 => 
     array (
       0 => '3715',
       1 => 'Kuuse küla',
     ),
-    141 => 
+    142 => 
     array (
       0 => '3719',
       1 => 'Kuusiku küla',
     ),
-    142 => 
+    143 => 
     array (
       0 => '3726',
       1 => 'Kuusnõmme küla',
     ),
-    143 => 
+    144 => 
     array (
       0 => '3744',
       1 => 'Kõiguste küla',
     ),
-    144 => 
+    145 => 
     array (
       0 => '3747',
       1 => 'Kõinastu küla',
     ),
-    145 => 
+    146 => 
     array (
       0 => '3757',
       1 => 'Kõljala küla',
     ),
-    146 => 
+    147 => 
     array (
       0 => '3774',
       1 => 'Kõnnu küla',
     ),
-    147 => 
+    148 => 
     array (
       0 => '3800',
       1 => 'Kõriska küla',
     ),
-    148 => 
+    149 => 
     array (
       0 => '3805',
       1 => 'Kõrkküla',
     ),
-    149 => 
+    150 => 
     array (
       0 => '3807',
       1 => 'Kõrkvere küla',
     ),
-    150 => 
+    151 => 
     array (
       0 => '3816',
       1 => 'Kõruse-Metsaküla',
     ),
-    151 => 
+    152 => 
     array (
       0 => '3817',
       1 => 'Kõruse küla',
     ),
-    152 => 
+    153 => 
     array (
       0 => '3843',
       1 => 'Kõõru küla',
     ),
-    153 => 
+    154 => 
     array (
       0 => '3860',
       1 => 'Käesla küla',
     ),
-    154 => 
+    155 => 
     array (
       0 => '3870',
       1 => 'Käku küla',
     ),
-    155 => 
+    156 => 
     array (
       0 => '3882',
       1 => 'Käo küla',
     ),
-    156 => 
+    157 => 
     array (
       0 => '3896',
       1 => 'Kärdu küla',
     ),
-    157 => 
+    158 => 
     array (
       0 => '3916',
       1 => 'Kärla alevik',
     ),
-    158 => 
+    159 => 
     array (
       0 => '3922',
       1 => 'Kärneri küla',
     ),
-    159 => 
+    160 => 
     array (
       0 => '3964',
       1 => 'Kübassaare küla',
     ),
-    160 => 
+    161 => 
     array (
       0 => '3967',
       1 => 'Küdema küla',
     ),
-    161 => 
+    162 => 
     array (
       0 => '3989',
       1 => 'Külma küla',
     ),
-    162 => 
+    163 => 
     array (
       0 => '4007',
       1 => 'Laadjala küla',
     ),
-    163 => 
+    164 => 
     array (
       0 => '4009',
       1 => 'Laadla küla',
     ),
-    164 => 
+    165 => 
     array (
       0 => '4041',
       1 => 'Laevaranna küla',
     ),
-    165 => 
+    166 => 
     array (
       0 => '4053',
       1 => 'Laheküla',
     ),
-    166 => 
+    167 => 
     array (
       0 => '4057',
       1 => 'Lahetaguse küla',
     ),
-    167 => 
+    168 => 
     array (
       0 => '4073',
       1 => 'Laimjala küla',
     ),
-    168 => 
+    169 => 
     array (
       0 => '4110',
       1 => 'Laoküla',
     ),
-    169 => 
+    170 => 
     array (
       0 => '4129',
       1 => 'Lassi küla',
     ),
-    170 => 
+    171 => 
     array (
       0 => '4137',
       1 => 'Laugu-Liiva küla',
     ),
-    171 => 
+    172 => 
     array (
       0 => '4138',
       1 => 'Laugu küla',
     ),
-    172 => 
+    173 => 
     array (
       0 => '4180',
       1 => 'Leedri küla',
     ),
-    173 => 
+    174 => 
     array (
       0 => '4233',
       1 => 'Leina küla',
     ),
-    174 => 
+    175 => 
     array (
       0 => '4237',
       1 => 'Leisi alevik',
     ),
-    175 => 
+    176 => 
     array (
       0 => '4238',
       1 => 'Leisi küla',
     ),
-    176 => 
+    177 => 
     array (
       0 => '4310',
       1 => 'Levala küla',
     ),
-    177 => 
+    178 => 
     array (
       0 => '4335',
       1 => 'Liigalaskma küla',
     ),
-    178 => 
+    179 => 
     array (
       0 => '4343',
       1 => 'Liivaranna küla',
     ),
-    179 => 
+    180 => 
     array (
       0 => '4345',
       1 => 'Liiküla',
     ),
-    180 => 
+    181 => 
     array (
       0 => '4346',
       1 => 'Liivanõmme küla',
     ),
-    181 => 
+    182 => 
     array (
       0 => '4363',
       1 => 'Liiva küla',
     ),
-    182 => 
+    183 => 
     array (
       0 => '4366',
       1 => 'Liiva-Putla küla',
     ),
-    183 => 
+    184 => 
     array (
       0 => '4368',
       1 => 'Lilbi küla',
     ),
-    184 => 
+    185 => 
     array (
       0 => '4385',
       1 => 'Lindmetsa küla',
     ),
-    185 => 
+    186 => 
     array (
       0 => '4395',
       1 => 'Linnaka küla',
     ),
-    186 => 
+    187 => 
     array (
       0 => '4409',
       1 => 'Linnuse küla',
     ),
-    187 => 
+    188 => 
     array (
       0 => '4509',
       1 => 'Loona küla',
     ),
-    188 => 
+    189 => 
     array (
       0 => '4561',
       1 => 'Lussu küla',
     ),
-    189 => 
+    190 => 
     array (
       0 => '4581',
       1 => 'Luulupe küla',
     ),
-    190 => 
+    191 => 
     array (
       0 => '4604',
       1 => 'Lõmala küla',
     ),
-    191 => 
+    192 => 
     array (
       0 => '4608',
       1 => 'Lõu küla',
     ),
-    192 => 
+    193 => 
     array (
       0 => '4609',
       1 => 'Lõupõllu küla',
     ),
-    193 => 
+    194 => 
     array (
       0 => '4615',
       1 => 'Lõpi küla',
     ),
-    194 => 
+    195 => 
     array (
       0 => '4636',
       1 => 'Länga küla',
     ),
-    195 => 
+    196 => 
     array (
       0 => '4649',
       1 => 'Lätiniidi küla',
     ),
-    196 => 
+    197 => 
     array (
       0 => '4653',
       1 => 'Läägi küla',
     ),
-    197 => 
+    198 => 
     array (
       0 => '4661',
       1 => 'Läätsa küla',
     ),
-    198 => 
+    199 => 
     array (
       0 => '4665',
       1 => 'Lööne küla',
     ),
-    199 => 
+    200 => 
     array (
       0 => '4666',
       1 => 'Läbara küla',
     ),
-    200 => 
+    201 => 
     array (
       0 => '4675',
       1 => 'Lülle küla',
     ),
-    201 => 
+    202 => 
     array (
       0 => '4679',
       1 => 'Lümanda küla',
     ),
-    202 => 
+    203 => 
     array (
       0 => '4700',
       1 => 'Maantee küla',
     ),
-    203 => 
+    204 => 
     array (
       0 => '4713',
       1 => 'Maasi küla',
     ),
-    204 => 
+    205 => 
     array (
       0 => '4754',
       1 => 'Maleva küla',
     ),
-    205 => 
+    206 => 
     array (
       0 => '4803',
       1 => 'Masa küla',
     ),
-    206 => 
+    207 => 
     array (
       0 => '4826',
       1 => 'Matsiranna küla',
     ),
-    207 => 
+    208 => 
     array (
       0 => '4834',
       1 => 'Meedla küla',
     ),
-    208 => 
+    209 => 
     array (
       0 => '4855',
       1 => 'Mehama küla',
     ),
-    209 => 
+    210 => 
     array (
       0 => '4862',
       1 => 'Meiuste küla',
     ),
-    210 => 
+    211 => 
     array (
       0 => '4888',
       1 => 'Merise küla',
     ),
-    211 => 
+    212 => 
     array (
       0 => '4894',
       1 => 'Metsaküla',
     ),
-    212 => 
+    213 => 
     array (
       0 => '4899',
       1 => 'Metsalõuka küla',
     ),
-    213 => 
+    214 => 
     array (
       0 => '4907',
       1 => 'Metsapere küla',
     ),
-    214 => 
+    215 => 
     array (
       0 => '4909',
       1 => 'Metsara küla',
     ),
-    215 => 
+    216 => 
     array (
       0 => '4917',
       1 => 'Metsaääre küla',
     ),
-    216 => 
+    217 => 
     array (
       0 => '4922',
       1 => 'Metsküla',
     ),
-    217 => 
+    218 => 
     array (
       0 => '4984',
       1 => 'Moosi küla',
     ),
-    218 => 
+    219 => 
     array (
       0 => '5006',
       1 => 'Mui küla',
     ),
-    219 => 
+    220 => 
     array (
       0 => '5012',
       1 => 'Mujaste küla',
     ),
-    220 => 
+    221 => 
     array (
       0 => '5025',
       1 => 'Mullutu küla',
     ),
-    221 => 
+    222 => 
     array (
       0 => '5034',
       1 => 'Muraja küla',
     ),
-    222 => 
+    223 => 
     array (
       0 => '5044',
       1 => 'Muratsi küla',
     ),
-    223 => 
+    224 => 
     array (
       0 => '5050',
       1 => 'Murika küla',
     ),
-    224 => 
+    225 => 
     array (
       0 => '5080',
       1 => 'Mustjala küla',
     ),
-    225 => 
+    226 => 
     array (
       0 => '5087',
       1 => 'Mustla küla',
     ),
-    226 => 
+    227 => 
     array (
       0 => '5139',
       1 => 'Mõisaküla',
     ),
-    227 => 
+    228 => 
     array (
       0 => '5154',
       1 => 'Mõnnuste küla',
     ),
-    228 => 
+    229 => 
     array (
       0 => '5155',
       1 => 'Mõntu küla',
     ),
-    229 => 
+    230 => 
     array (
       0 => '5190',
       1 => 'Mäebe küla',
     ),
-    230 => 
+    231 => 
     array (
       0 => '5214',
       1 => 'Mäeküla',
     ),
-    231 => 
+    232 => 
     array (
       0 => '5220',
       1 => 'Mägi-Kurdla küla',
     ),
-    232 => 
+    233 => 
     array (
       0 => '5257',
       1 => 'Mändjala küla',
     ),
-    233 => 
+    234 => 
     array (
       0 => '5265',
       1 => 'Männiku küla',
     ),
-    234 => 
+    235 => 
     array (
       0 => '5282',
       1 => 'Mässa küla',
     ),
-    235 => 
+    236 => 
     array (
       0 => '5284',
       1 => 'Mätasselja küla',
     ),
-    236 => 
+    237 => 
     array (
       0 => '5287',
       1 => 'Mätja küla',
     ),
-    237 => 
+    238 => 
     array (
       0 => '5308',
       1 => 'Möldri küla',
     ),
-    238 => 
+    239 => 
     array (
       0 => '5361',
       1 => 'Nasva alevik',
     ),
-    239 => 
+    240 => 
     array (
       0 => '5374',
       1 => 'Nava küla',
     ),
-    240 => 
+    241 => 
     array (
       0 => '5388',
       1 => 'Neeme küla',
     ),
-    241 => 
+    242 => 
     array (
       0 => '5390',
       1 => 'Neemi küla',
     ),
-    242 => 
+    243 => 
     array (
       0 => '5401',
       1 => 'Nenu küla',
     ),
-    243 => 
+    244 => 
     array (
       0 => '5414',
       1 => 'Nihatu küla',
     ),
-    244 => 
+    245 => 
     array (
       0 => '5428',
       1 => 'Ninase küla',
     ),
-    245 => 
+    246 => 
     array (
       0 => '5472',
       1 => 'Nurme küla',
     ),
-    246 => 
+    247 => 
     array (
       0 => '5505',
       1 => 'Nõmjala küla',
     ),
-    247 => 
+    248 => 
     array (
       0 => '5519',
       1 => 'Nõmme küla',
     ),
-    248 => 
+    249 => 
     array (
       0 => '5528',
       1 => 'Nõmpa küla',
     ),
-    249 => 
+    250 => 
     array (
       0 => '5560',
       1 => 'Nässuma küla',
     ),
-    250 => 
+    251 => 
     array (
       0 => '5592',
       1 => 'Odalätsi küla',
     ),
-    251 => 
+    252 => 
     array (
       0 => '5612',
       1 => 'Oessaare küla',
     ),
-    252 => 
+    253 => 
     array (
       0 => '5621',
       1 => 'Ohessaare küla',
     ),
-    253 => 
+    254 => 
     array (
       0 => '5623',
       1 => 'Ohtja küla',
     ),
-    254 => 
+    255 => 
     array (
       0 => '5644',
       1 => 'Oitme küla',
     ),
-    255 => 
+    256 => 
     array (
       0 => '5657',
       1 => 'Oju küla',
     ),
-    256 => 
+    257 => 
     array (
       0 => '5723',
       1 => 'Orinõmme küla',
     ),
-    257 => 
+    258 => 
     array (
       0 => '5725',
       1 => 'Orissaare alevik',
     ),
-    258 => 
+    259 => 
     array (
       0 => '5757',
       1 => 'Oti küla',
     ),
-    259 => 
+    260 => 
     array (
       0 => '5792',
       1 => 'Paaste küla',
     ),
-    260 => 
+    261 => 
     array (
       0 => '5799',
       1 => 'Paatsa küla',
     ),
-    261 => 
+    262 => 
     array (
       0 => '5836',
       1 => 'Paevere küla',
     ),
-    262 => 
+    263 => 
     array (
       0 => '5847',
       1 => 'Pahapilli küla',
     ),
-    263 => 
+    264 => 
     array (
       0 => '5849',
       1 => 'Pahavalla küla',
     ),
-    264 => 
+    265 => 
     array (
       0 => '5867',
       1 => 'Paiküla',
     ),
-    265 => 
+    266 => 
     array (
       0 => '5868',
       1 => 'Paimala küla',
     ),
-    266 => 
+    267 => 
     array (
       0 => '5882',
       1 => 'Paju-Kurdla küla',
     ),
-    267 => 
+    268 => 
     array (
       0 => '5890',
       1 => 'Pajumõisa küla',
     ),
-    268 => 
+    269 => 
     array (
       0 => '5965',
       1 => 'Pamma küla',
     ),
-    269 => 
+    270 => 
     array (
       0 => '5967',
       1 => 'Pammana küla',
     ),
-    270 => 
+    271 => 
     array (
       0 => '5973',
       1 => 'Panga küla',
     ),
-    271 => 
+    272 => 
     array (
       0 => '5994',
       1 => 'Parasmetsa küla',
     ),
-    272 => 
+    273 => 
     array (
       0 => '6010',
       1 => 'Parila küla',
     ),
-    273 => 
+    274 => 
     array (
       0 => '6077',
       1 => 'Peederga küla',
     ),
-    274 => 
+    275 => 
     array (
       0 => '6137',
       1 => 'Pidula küla',
     ),
-    275 => 
+    276 => 
     array (
       0 => '6138',
       1 => 'Pidula-Kuusiku küla',
     ),
-    276 => 
+    277 => 
     array (
       0 => '6153',
       1 => 'Pihtla küla',
     ),
-    277 => 
+    278 => 
     array (
       0 => '6169',
       1 => 'Piila küla',
     ),
-    278 => 
+    279 => 
     array (
       0 => '6312',
       1 => 'Poka küla',
     ),
-    279 => 
+    280 => 
     array (
       0 => '6343',
       1 => 'Praakli küla',
     ),
-    280 => 
+    281 => 
     array (
       0 => '6418',
       1 => 'Puka küla',
     ),
-    281 => 
+    282 => 
     array (
       0 => '6427',
       1 => 'Pulli küla',
     ),
-    282 => 
+    283 => 
     array (
       0 => '6448',
       1 => 'Purtsa küla',
     ),
-    283 => 
+    284 => 
     array (
       0 => '6534',
       1 => 'Põlluküla',
     ),
-    284 => 
+    285 => 
     array (
       0 => '6542',
       1 => 'Põripõllu küla',
     ),
-    285 => 
+    286 => 
     array (
       0 => '6562',
       1 => 'Pähkla küla',
     ),
-    286 => 
+    287 => 
     array (
       0 => '6614',
       1 => 'Pärni küla',
     ),
-    287 => 
+    288 => 
     array (
       0 => '6618',
       1 => 'Pärsama küla',
     ),
-    288 => 
+    289 => 
     array (
       0 => '6635',
       1 => 'Pöide küla',
     ),
-    289 => 
+    290 => 
     array (
       0 => '6636',
       1 => 'Pöide-Keskvere küla',
     ),
-    290 => 
+    291 => 
     array (
       0 => '6639',
       1 => 'Pöitse küla',
     ),
-    291 => 
+    292 => 
     array (
       0 => '6653',
       1 => 'Püha küla',
     ),
-    292 => 
+    293 => 
     array (
       0 => '6654',
       1 => 'Püha-Kõnnu küla',
     ),
-    293 => 
+    294 => 
     array (
       0 => '6730',
       1 => 'Rahniku küla',
     ),
-    294 => 
+    295 => 
     array (
       0 => '6734',
       1 => 'Rahtla küla',
     ),
-    295 => 
+    296 => 
     array (
       0 => '6737',
       1 => 'Rahu küla',
     ),
-    296 => 
+    297 => 
     array (
       0 => '6745',
       1 => 'Rahuste küla',
     ),
-    297 => 
+    298 => 
     array (
       0 => '6794',
       1 => 'Randküla',
     ),
-    298 => 
+    299 => 
     array (
       0 => '6799',
       1 => 'Randvere küla',
     ),
-    299 => 
+    300 => 
     array (
       0 => '6818',
       1 => 'Rannaküla',
     ),
-    300 => 
+    301 => 
     array (
       0 => '6842',
       1 => 'Ratla küla',
     ),
-    301 => 
+    302 => 
     array (
       0 => '6862',
       1 => 'Raugu küla',
     ),
-    302 => 
+    303 => 
     array (
       0 => '6899',
       1 => 'Reeküla',
     ),
-    303 => 
+    304 => 
     array (
       0 => '6913',
       1 => 'Reina küla',
     ),
-    304 => 
+    305 => 
     array (
       0 => '6930',
       1 => 'Reo küla',
     ),
-    305 => 
+    306 => 
     array (
       0 => '6960',
       1 => 'Ridala küla',
     ),
-    306 => 
+    307 => 
     array (
       0 => '6997',
       1 => 'Riksu küla',
     ),
-    307 => 
+    308 => 
     array (
       0 => '7051',
       1 => 'Roobaka küla',
     ),
-    308 => 
+    309 => 
     array (
       0 => '7088',
       1 => 'Rootsiküla',
     ),
-    309 => 
+    310 => 
     array (
       0 => '7107',
       1 => 'Ruhve küla',
     ),
-    310 => 
+    311 => 
     array (
       0 => '7200',
       1 => 'Räimaste küla',
     ),
-    311 => 
+    312 => 
     array (
       0 => '7234',
       1 => 'Räägi küla',
     ),
-    312 => 
+    313 => 
     array (
       0 => '7258',
       1 => 'Röösa küla',
     ),
-    313 => 
+    314 => 
     array (
       0 => '7291',
       1 => 'Saaremetsa küla',
     ),
-    314 => 
+    315 => 
     array (
       0 => '7294',
       1 => 'Saareküla',
     ),
-    315 => 
+    316 => 
     array (
       0 => '7330',
       1 => 'Sagariste küla',
     ),
-    316 => 
+    317 => 
     array (
       0 => '7340',
       1 => 'Saia küla',
     ),
-    317 => 
+    318 => 
     array (
       0 => '7345',
       1 => 'Saikla küla',
     ),
-    318 => 
+    319 => 
     array (
       0 => '7351',
       1 => 'Sakla küla',
     ),
-    319 => 
+    320 => 
     array (
       0 => '7372',
       1 => 'Salavere küla',
     ),
-    320 => 
+    321 => 
     array (
       0 => '7387',
       1 => 'Salme alevik',
     ),
-    321 => 
+    322 => 
     array (
       0 => '7403',
       1 => 'Salu küla',
     ),
-    322 => 
+    323 => 
     array (
       0 => '7414',
       1 => 'Sandla küla',
     ),
-    323 => 
+    324 => 
     array (
       0 => '7450',
       1 => 'Sauaru küla',
     ),
-    324 => 
+    325 => 
     array (
       0 => '7451',
       1 => 'Saue-Putla küla',
     ),
-    325 => 
+    326 => 
     array (
       0 => '7470',
       1 => 'Saue-Mustla küla',
     ),
-    326 => 
+    327 => 
     array (
       0 => '7473',
       1 => 'Sauvere küla',
     ),
-    327 => 
+    328 => 
     array (
       0 => '7513',
       1 => 'Selgase küla',
     ),
-    328 => 
+    329 => 
     array (
       0 => '7537',
       1 => 'Selja küla',
     ),
-    329 => 
+    330 => 
     array (
       0 => '7543',
       1 => 'Sepa küla',
     ),
-    330 => 
+    331 => 
     array (
       0 => '7545',
       1 => 'Sepise küla',
     ),
-    331 => 
+    332 => 
     array (
       0 => '7568',
       1 => 'Siiksaare küla',
     ),
-    332 => 
+    333 => 
     array (
       0 => '7584',
       1 => 'Sikassaare küla',
     ),
-    333 => 
+    334 => 
     array (
       0 => '7596',
       1 => 'Silla küla',
     ),
-    334 => 
+    335 => 
     array (
       0 => '7658',
       1 => 'Soela küla',
     ),
-    335 => 
+    336 => 
     array (
       0 => '7689',
       1 => 'Soodevahe küla',
     ),
-    336 => 
+    337 => 
     array (
       0 => '7799',
       1 => 'Sundimetsa küla',
     ),
-    337 => 
+    338 => 
     array (
       0 => '7822',
       1 => 'Sutu küla',
     ),
-    338 => 
+    339 => 
     array (
       0 => '7826',
       1 => 'Suur-Pahila küla',
     ),
-    339 => 
+    340 => 
     array (
       0 => '7827',
       1 => 'Suur-Rahula küla',
     ),
-    340 => 
+    341 => 
     array (
       0 => '7834',
       1 => 'Suure-Rootsi küla',
     ),
-    341 => 
+    342 => 
     array (
       0 => '7837',
       1 => 'Suur-Randvere küla',
     ),
-    342 => 
+    343 => 
     array (
       0 => '7861',
       1 => 'Suurna küla',
     ),
-    343 => 
+    344 => 
     array (
       0 => '7885',
       1 => 'Sõmera küla',
     ),
-    344 => 
+    345 => 
     array (
       0 => '7906',
       1 => 'Sõrve-Hindu küla',
     ),
-    345 => 
+    346 => 
     array (
       0 => '7950',
       1 => 'Sääre küla',
     ),
-    346 => 
+    347 => 
     array (
       0 => '7998',
       1 => 'Taaliku küla',
     ),
-    347 => 
+    348 => 
     array (
       0 => '8049',
       1 => 'Tagamõisa küla',
     ),
-    348 => 
+    349 => 
     array (
       0 => '8053',
       1 => 'Tagaranna küla',
     ),
-    349 => 
+    350 => 
     array (
       0 => '8059',
       1 => 'Tagavere küla',
     ),
-    350 => 
+    351 => 
     array (
       0 => '8076',
       1 => 'Tahula küla',
     ),
-    351 => 
+    352 => 
     array (
       0 => '8084',
       1 => 'Talila küla',
     ),
-    352 => 
+    353 => 
     array (
       0 => '8099',
       1 => 'Tammese küla',
     ),
-    353 => 
+    354 => 
     array (
       0 => '8128',
       1 => 'Tammuna küla',
     ),
-    354 => 
+    355 => 
     array (
       0 => '8153',
       1 => 'Tareste küla',
     ),
-    355 => 
+    356 => 
     array (
       0 => '8158',
       1 => 'Taritu küla',
     ),
-    356 => 
+    357 => 
     array (
       0 => '8185',
       1 => 'Tehumardi küla',
     ),
-    357 => 
+    358 => 
     array (
       0 => '8227',
       1 => 'Tiirimetsa küla',
     ),
-    358 => 
+    359 => 
     array (
       0 => '8230',
       1 => 'Tiitsuotsa küla',
     ),
-    359 => 
+    360 => 
     array (
       0 => '8253',
       1 => 'Tirbi küla',
     ),
-    360 => 
+    361 => 
     array (
       0 => '8270',
       1 => 'Tohku küla',
     ),
-    361 => 
+    362 => 
     array (
       0 => '8298',
       1 => 'Toomalõuka küla',
     ),
-    362 => 
+    363 => 
     array (
       0 => '8323',
       1 => 'Torgu-Mõisaküla',
     ),
-    363 => 
+    364 => 
     array (
       0 => '8336',
       1 => 'Tornimäe küla',
     ),
-    364 => 
+    365 => 
     array (
       0 => '8347',
       1 => 'Triigi küla',
     ),
-    365 => 
+    366 => 
     array (
       0 => '8406',
       1 => 'Tuiu küla',
     ),
-    366 => 
+    367 => 
     array (
       0 => '8412',
       1 => 'Tumala küla',
     ),
-    367 => 
+    368 => 
     array (
       0 => '8426',
       1 => 'Turja küla',
     ),
-    368 => 
+    369 => 
     array (
       0 => '8443',
       1 => 'Tutku küla',
     ),
-    369 => 
+    370 => 
     array (
       0 => '8489',
       1 => 'Tõlli küla',
     ),
-    370 => 
+    371 => 
     array (
       0 => '8493',
       1 => 'Tõlluste küla',
     ),
-    371 => 
+    372 => 
     array (
       0 => '8502',
       1 => 'Tõnija küla',
     ),
-    372 => 
+    373 => 
     array (
       0 => '8516',
       1 => 'Tõre küla',
     ),
-    373 => 
+    374 => 
     array (
       0 => '8517',
       1 => 'Tõrise küla',
     ),
-    374 => 
+    375 => 
     array (
       0 => '8526',
       1 => 'Tõru küla',
     ),
-    375 => 
+    376 => 
     array (
       0 => '8587',
       1 => 'Täätsi küla',
     ),
-    376 => 
+    377 => 
     array (
       0 => '8600',
       1 => 'Türju küla',
     ),
-    377 => 
+    378 => 
     array (
       0 => '8625',
       1 => 'Uduvere küla',
     ),
-    378 => 
+    379 => 
     array (
       0 => '8652',
       1 => 'Ula küla',
     ),
-    379 => 
+    380 => 
     array (
       0 => '8662',
       1 => 'Ulje küla',
     ),
-    380 => 
+    381 => 
     array (
       0 => '8683',
       1 => 'Undimäe küla',
     ),
-    381 => 
+    382 => 
     array (
       0 => '8692',
       1 => 'Undva küla',
     ),
-    382 => 
+    383 => 
     array (
       0 => '8693',
       1 => 'Unguma küla',
     ),
-    383 => 
+    384 => 
     array (
       0 => '8697',
       1 => 'Unimäe küla',
     ),
-    384 => 
+    385 => 
     array (
       0 => '8708',
       1 => 'Upa küla',
     ),
-    385 => 
+    386 => 
     array (
       0 => '8771',
       1 => 'Uuemõisa küla',
     ),
-    386 => 
+    387 => 
     array (
       0 => '8859',
       1 => 'Vahva küla',
     ),
-    387 => 
+    388 => 
     array (
       0 => '8870',
       1 => 'Vaigu küla',
     ),
-    388 => 
+    389 => 
     array (
       0 => '8871',
       1 => 'Vaigu-Rannaküla',
     ),
-    389 => 
+    390 => 
     array (
       0 => '8898',
       1 => 'Vaivere küla',
     ),
-    390 => 
+    391 => 
     array (
       0 => '8950',
       1 => 'Valjala-Ariste küla',
     ),
-    391 => 
+    392 => 
     array (
       0 => '8951',
       1 => 'Valjala alevik',
     ),
-    392 => 
+    393 => 
     array (
       0 => '8952',
       1 => 'Valjala-Kogula küla',
     ),
-    393 => 
+    394 => 
     array (
       0 => '8953',
       1 => 'Valjala-Nurme küla',
     ),
-    394 => 
+    395 => 
     array (
       0 => '8990',
       1 => 'Vana-Lahetaguse küla',
     ),
-    395 => 
+    396 => 
     array (
       0 => '9013',
       1 => 'Vanakubja küla',
     ),
-    396 => 
+    397 => 
     array (
       0 => '9018',
       1 => 'Vanalõve küla',
     ),
-    397 => 
+    398 => 
     array (
       0 => '9022',
       1 => 'Vanamõisa küla',
     ),
-    398 => 
+    399 => 
     array (
       0 => '9045',
       1 => 'Vantri küla',
     ),
-    399 => 
+    400 => 
     array (
       0 => '9089',
       1 => 'Varkja küla',
     ),
-    400 => 
+    401 => 
     array (
       0 => '9093',
       1 => 'Varpe küla',
     ),
-    401 => 
+    402 => 
     array (
       0 => '9145',
       1 => 'Vatsküla',
     ),
-    402 => 
+    403 => 
     array (
       0 => '9158',
       1 => 'Vedruka küla',
     ),
-    403 => 
+    404 => 
     array (
       0 => '9171',
       1 => 'Veere küla',
     ),
-    404 => 
+    405 => 
     array (
       0 => '9172',
       1 => 'Veeriku küla',
     ),
-    405 => 
+    406 => 
     array (
       0 => '9173',
       1 => 'Veeremäe küla',
     ),
-    406 => 
+    407 => 
     array (
       0 => '9197',
       1 => 'Vendise küla',
     ),
-    407 => 
+    408 => 
     array (
       0 => '9206',
       1 => 'Vennati küla',
     ),
-    408 => 
+    409 => 
     array (
       0 => '9226',
       1 => 'Veske küla',
     ),
-    409 => 
+    410 => 
     array (
       0 => '9241',
       1 => 'Vestla küla',
     ),
-    410 => 
+    411 => 
     array (
       0 => '9275',
       1 => 'Viidu küla',
     ),
-    411 => 
+    412 => 
     array (
       0 => '9276',
       1 => 'Viidu-Mäebe küla',
     ),
-    412 => 
+    413 => 
     array (
       0 => '9293',
       1 => 'Viira küla',
     ),
-    413 => 
+    414 => 
     array (
       0 => '9315',
       1 => 'Viki küla',
     ),
-    414 => 
+    415 => 
     array (
       0 => '9328',
       1 => 'Vilidu küla',
     ),
-    415 => 
+    416 => 
     array (
       0 => '9357',
       1 => 'Vilsandi küla',
     ),
-    416 => 
+    417 => 
     array (
       0 => '9360',
       1 => 'Viltina küla',
     ),
-    417 => 
+    418 => 
     array (
       0 => '9378',
       1 => 'Vintri küla',
     ),
-    418 => 
+    419 => 
     array (
       0 => '9383',
       1 => 'Virita küla',
     ),
-    419 => 
+    420 => 
     array (
       0 => '9497',
       1 => 'Võhma küla',
     ),
-    420 => 
+    421 => 
     array (
       0 => '9581',
       1 => 'Võrsna küla',
     ),
-    421 => 
+    422 => 
     array (
       0 => '9627',
       1 => 'Väike-Ula küla',
     ),
-    422 => 
+    423 => 
     array (
       0 => '9629',
       1 => 'Väike-Pahila küla',
     ),
-    423 => 
+    424 => 
     array (
       0 => '9630',
       1 => 'Väike-Võhma küla',
     ),
-    424 => 
+    425 => 
     array (
       0 => '9632',
       1 => 'Väike-Rahula küla',
     ),
-    425 => 
+    426 => 
     array (
       0 => '9634',
       1 => 'Väike-Rootsi küla',
     ),
-    426 => 
+    427 => 
     array (
       0 => '9642',
       1 => 'Väkra küla',
     ),
-    427 => 
+    428 => 
     array (
       0 => '9649',
       1 => 'Väljaküla',
     ),
-    428 => 
+    429 => 
     array (
       0 => '9658',
       1 => 'Välta küla',
     ),
-    429 => 
+    430 => 
     array (
       0 => '9662',
       1 => 'Väljamõisa küla',
     ),
-    430 => 
+    431 => 
     array (
       0 => '9799',
       1 => 'Õeste küla',
     ),
-    431 => 
+    432 => 
     array (
       0 => '9800',
       1 => 'Õha küla',
     ),
-    432 => 
+    433 => 
     array (
       0 => '9804',
       1 => 'Ööriku küla',
     ),
-    433 => 
+    434 => 
     array (
       0 => '9849',
       1 => 'Üru küla',
     ),
-    434 => 
+    435 => 
     array (
       0 => '9854',
       1 => 'Üüvere küla',
     ),
-    435 => 
+    436 => 
     array (
       0 => '9855',
       1 => 'Üüdibe küla',
@@ -17019,400 +16851,405 @@ return ["counties" => array (
     ),
     4 => 
     array (
+      0 => '1586',
+      1 => 'Elva linn',
+    ),
+    5 => 
+    array (
       0 => '1643',
       1 => 'Ervu küla',
     ),
-    5 => 
+    6 => 
     array (
       0 => '1813',
       1 => 'Hellenurme küla',
     ),
-    6 => 
+    7 => 
     array (
       0 => '1951',
       1 => 'Härjanurme küla',
     ),
-    7 => 
+    8 => 
     array (
       0 => '2348',
       1 => 'Järvaküla',
     ),
-    8 => 
+    9 => 
     array (
       0 => '2351',
       1 => 'Järveküla',
     ),
-    9 => 
+    10 => 
     array (
       0 => '2409',
       1 => 'Kaarlijärve küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '2540',
       1 => 'Kaimi küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '2622',
       1 => 'Kalme küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '2699',
       1 => 'Kapsta küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '2725',
       1 => 'Karijärve küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '2842',
       1 => 'Võllinge küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '3103',
       1 => 'Kipastu küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '3121',
       1 => 'Kirepi küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '3216',
       1 => 'Kobilu küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '3372',
       1 => 'Konguta küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '3412',
       1 => 'Koopsi küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '3457',
       1 => 'Koruste küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '3595',
       1 => 'Kulli küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '3637',
       1 => 'Kureküla alevik',
     ),
-    23 => 
+    24 => 
     array (
       0 => '3639',
       1 => 'Kurelaane küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '3738',
       1 => 'Kõduküla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '3881',
       1 => 'Käo küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '3949',
       1 => 'Käärdi alevik',
     ),
-    27 => 
+    28 => 
     array (
       0 => '3973',
       1 => 'Külaaseme küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '4117',
       1 => 'Lapetukme küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '4256',
       1 => 'Lembevere küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '4376',
       1 => 'Lilleküla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '4527',
       1 => 'Lossimäe küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '4749',
       1 => 'Majala küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '4895',
       1 => 'Metsalaane küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '5138',
       1 => 'Mõisanurme küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '5198',
       1 => 'Mäelooga küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '5206',
       1 => 'Mäeotsa küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '5211',
       1 => 'Mäeselja küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '5248',
       1 => 'Mälgi küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '5358',
       1 => 'Nasja küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '5393',
       1 => 'Neemisküla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '5447',
       1 => 'Noorma küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '5880',
       1 => 'Paju küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '5916',
       1 => 'Palamuste küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '5952',
       1 => 'Palupera küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '5957',
       1 => 'Palupõhja küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '6031',
       1 => 'Pastaku küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '6071',
       1 => 'Pedaste küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '6164',
       1 => 'Piigandi küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '6322',
       1 => 'Poole küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '6328',
       1 => 'Poriküla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '6393',
       1 => 'Puhja alevik',
     ),
-    52 => 
+    53 => 
     array (
       0 => '6453',
       1 => 'Purtsi küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '6648',
       1 => 'Pööritsa küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '6663',
       1 => 'Pühaste küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '6748',
       1 => 'Raigaste küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '6809',
       1 => 'Rannaküla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '6822',
       1 => 'Rannu alevik',
     ),
-    58 => 
+    59 => 
     array (
       0 => '6890',
       1 => 'Rebaste küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '6955',
       1 => 'Ridaküla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '7167',
       1 => 'Rõngu alevik',
     ),
-    61 => 
+    62 => 
     array (
       0 => '7208',
       1 => 'Rämsi küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '7282',
       1 => 'Saare küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '7420',
       1 => 'Sangla küla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '7833',
       1 => 'Suure-Rakke küla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '8094',
       1 => 'Tamme küla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '8121',
       1 => 'Tammiste küla',
     ),
-    67 => 
+    68 => 
     array (
       0 => '8180',
       1 => 'Teedla küla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '8189',
       1 => 'Teilma küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '8238',
       1 => 'Tilga küla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '8575',
       1 => 'Tännassilma küla',
     ),
-    71 => 
+    72 => 
     array (
       0 => '8614',
       1 => 'Uderna küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '8655',
       1 => 'Ulila alevik',
     ),
-    73 => 
+    74 => 
     array (
       0 => '8727',
       1 => 'Urmi küla',
     ),
-    74 => 
+    75 => 
     array (
       0 => '8750',
       1 => 'Utukolga küla',
     ),
-    75 => 
+    76 => 
     array (
       0 => '8846',
       1 => 'Vahessaare küla',
     ),
-    76 => 
+    77 => 
     array (
       0 => '8941',
       1 => 'Valguta küla',
     ),
-    77 => 
+    78 => 
     array (
       0 => '8959',
       1 => 'Vallapalu küla',
     ),
-    78 => 
+    79 => 
     array (
       0 => '9178',
       1 => 'Vehendi küla',
     ),
-    79 => 
+    80 => 
     array (
       0 => '9191',
       1 => 'Vellavere küla',
     ),
-    80 => 
+    81 => 
     array (
       0 => '9211',
       1 => 'Verevi küla',
     ),
-    81 => 
+    82 => 
     array (
       0 => '9260',
       1 => 'Vihavu küla',
     ),
-    82 => 
+    83 => 
     array (
       0 => '9591',
       1 => 'Võsivere küla',
     ),
-    83 => 
+    84 => 
     array (
       0 => '9633',
       1 => 'Väike-Rakke küla',
@@ -18164,405 +18001,410 @@ return ["counties" => array (
     ),
     7 => 
     array (
+      0 => '2596',
+      1 => 'Kallaste linn',
+    ),
+    8 => 
+    array (
       0 => '2717',
       1 => 'Kargaja küla',
     ),
-    8 => 
+    9 => 
     array (
       0 => '2799',
       1 => 'Kasepää alevik',
     ),
-    9 => 
+    10 => 
     array (
       0 => '2858',
       1 => 'Kauda küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '2966',
       1 => 'Keressaare küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '2979',
       1 => 'Kesklahe küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '3151',
       1 => 'Kirtsi küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '3233',
       1 => 'Kodavere küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '3310',
       1 => 'Kokanurga küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '3323',
       1 => 'Kokora küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '3350',
       1 => 'Kolkja alevik',
     ),
-    17 => 
+    18 => 
     array (
       0 => '3425',
       1 => 'Koosa küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '3427',
       1 => 'Koosalaane küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '3626',
       1 => 'Kuningvere küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '3703',
       1 => 'Kusma küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '3721',
       1 => 'Kuusiku küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '3732',
       1 => 'Kõdesi küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '4050',
       1 => 'Lahe küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '4055',
       1 => 'Lahepera küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '4379',
       1 => 'Linaleo küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '4685',
       1 => 'Lümati küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '4816',
       1 => 'Matjama küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '4871',
       1 => 'Meoma küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '4889',
       1 => 'Metsakivi küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '4904',
       1 => 'Metsanurga küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '4972',
       1 => 'Moku küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '5065',
       1 => 'Mustametsa küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '5337',
       1 => 'Naelavere küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '5427',
       1 => 'Nina küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '5544',
       1 => 'Nõva küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '5709',
       1 => 'Orgemäe küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '5807',
       1 => 'Padakõrve küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '5905',
       1 => 'Pala küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '5981',
       1 => 'Papiaru küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '6026',
       1 => 'Passi küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '6057',
       1 => 'Peatskivi küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '6111',
       1 => 'Perametsa küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '6161',
       1 => 'Piibumäe küla',
     ),
-    44 => 
+    45 => 
     array (
       0 => '6189',
       1 => 'Piirivarbe küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '6259',
       1 => 'Pilpaküla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '6342',
       1 => 'Praaga küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '6432',
       1 => 'Punikvere küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '6458',
       1 => 'Pusi küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '6488',
       1 => 'Põdra küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '6515',
       1 => 'Põldmaa küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '6544',
       1 => 'Põrgu küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '6577',
       1 => 'Päiksi küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '6699',
       1 => 'Raatvere küla',
     ),
-    54 => 
+    55 => 
     array (
       0 => '6803',
       1 => 'Ranna küla',
     ),
-    55 => 
+    56 => 
     array (
       0 => '6902',
       1 => 'Rehemetsa küla',
     ),
-    56 => 
+    57 => 
     array (
       0 => '6984',
       1 => 'Riidma küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '7043',
       1 => 'Ronisoo küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '7090',
       1 => 'Rootsiküla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '7127',
       1 => 'Rupsi küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '7314',
       1 => 'Saburi küla',
     ),
-    61 => 
+    62 => 
     array (
       0 => '7444',
       1 => 'Sassukvere küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '7484',
       1 => 'Savastvere küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '7499',
       1 => 'Savimetsa küla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '7500',
       1 => 'Savka küla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '7516',
       1 => 'Selgise küla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '7627',
       1 => 'Sipelga küla',
     ),
-    67 => 
+    68 => 
     array (
       0 => '7703',
       1 => 'Sookalduse küla',
     ),
-    68 => 
+    69 => 
     array (
       0 => '7761',
       1 => 'Sudemäe küla',
     ),
-    69 => 
+    70 => 
     array (
       0 => '7913',
       1 => 'Sõõru küla',
     ),
-    70 => 
+    71 => 
     array (
       0 => '7938',
       1 => 'Särgla küla',
     ),
-    71 => 
+    72 => 
     array (
       0 => '7953',
       1 => 'Sääritsa küla',
     ),
-    72 => 
+    73 => 
     array (
       0 => '8066',
       1 => 'Tagumaa küla',
     ),
-    73 => 
+    74 => 
     array (
       0 => '8176',
       1 => 'Tedreküla',
     ),
-    74 => 
+    75 => 
     array (
       0 => '8329',
       1 => 'Torila küla',
     ),
-    75 => 
+    76 => 
     array (
       0 => '8335',
       1 => 'Toruküla',
     ),
-    76 => 
+    77 => 
     array (
       0 => '8527',
       1 => 'Tõruvere küla',
     ),
-    77 => 
+    78 => 
     array (
       0 => '8555',
       1 => 'Tähemaa küla',
     ),
-    78 => 
+    79 => 
     array (
       0 => '8687',
       1 => 'Undi küla',
     ),
-    79 => 
+    80 => 
     array (
       0 => '9031',
       1 => 'Vanaussaia küla',
     ),
-    80 => 
+    81 => 
     array (
       0 => '9053',
       1 => 'Vara küla',
     ),
-    81 => 
+    82 => 
     array (
       0 => '9090',
       1 => 'Varnja alevik',
     ),
-    82 => 
+    83 => 
     array (
       0 => '9150',
       1 => 'Vea küla',
     ),
-    83 => 
+    84 => 
     array (
       0 => '9389',
       1 => 'Virtsu küla',
     ),
-    84 => 
+    85 => 
     array (
       0 => '9644',
       1 => 'Välgi küla',
     ),
-    85 => 
+    86 => 
     array (
       0 => '9645',
       1 => 'Väljaküla',
     ),
-    86 => 
+    87 => 
     array (
       0 => '9787',
       1 => 'Äteniidi küla',
     ),
-    87 => 
+    88 => 
     array (
       0 => '9790',
       1 => 'Ätte küla',
@@ -18617,15 +18459,20 @@ return ["counties" => array (
     ),
     9 => 
     array (
+      0 => '8151',
+      1 => 'Tartu linn',
+    ),
+    10 => 
+    array (
       0 => '8560',
       1 => 'Tähtvere küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '8590',
       1 => 'Tüki küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '9483',
       1 => 'Vorbuse küla',
@@ -19168,125 +19015,130 @@ return ["counties" => array (
     ),
     29 => 
     array (
+      0 => '5755',
+      1 => 'Otepää linn',
+    ),
+    30 => 
+    array (
       0 => '6060',
       1 => 'Pedajamäe küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '6252',
       1 => 'Pilkuse küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '6296',
       1 => 'Plika küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '6352',
       1 => 'Prange küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '6371',
       1 => 'Pringi küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '6417',
       1 => 'Puka alevik',
     ),
-    35 => 
+    36 => 
     array (
       0 => '6549',
       1 => 'Põru küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '6570',
       1 => 'Päidla küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '6659',
       1 => 'Pühajärve küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '6857',
       1 => 'Raudsepa küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '6943',
       1 => 'Restu küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '7018',
       1 => 'Risttee küla',
     ),
-    41 => 
+    42 => 
     array (
       0 => '7148',
       1 => 'Ruuna küla',
     ),
-    42 => 
+    43 => 
     array (
       0 => '7195',
       1 => 'Räbi küla',
     ),
-    43 => 
+    44 => 
     array (
       0 => '7418',
       1 => 'Sangaste alevik',
     ),
-    44 => 
+    45 => 
     array (
       0 => '7426',
       1 => 'Sarapuu küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '7565',
       1 => 'Sihva küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '8219',
       1 => 'Tiidu küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '8356',
       1 => 'Truuta küla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '8546',
       1 => 'Tõutsi küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '8806',
       1 => 'Vaalu küla',
     ),
-    50 => 
+    51 => 
     array (
       0 => '8808',
       1 => 'Vaardi küla',
     ),
-    51 => 
+    52 => 
     array (
       0 => '8999',
       1 => 'Vana-Otepää küla',
     ),
-    52 => 
+    53 => 
     array (
       0 => '9252',
       1 => 'Vidrike küla',
     ),
-    53 => 
+    54 => 
     array (
       0 => '9733',
       1 => 'Ädu küla',
@@ -19481,15 +19333,20 @@ return ["counties" => array (
     ),
     37 => 
     array (
+      0 => '8529',
+      1 => 'Tõrva linn',
+    ),
+    38 => 
+    array (
       0 => '8714',
       1 => 'Uralaane küla',
     ),
-    38 => 
+    39 => 
     array (
       0 => '9025',
       1 => 'Vanamõisa küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '9464',
       1 => 'Voorbahi küla',
@@ -19719,35 +19576,40 @@ return ["counties" => array (
     ),
     44 => 
     array (
+      0 => '8918',
+      1 => 'Valga linn',
+    ),
+    45 => 
+    array (
       0 => '8969',
       1 => 'Valtina küla',
     ),
-    45 => 
+    46 => 
     array (
       0 => '9326',
       1 => 'Vilaski küla',
     ),
-    46 => 
+    47 => 
     array (
       0 => '9618',
       1 => 'Väheru küla',
     ),
-    47 => 
+    48 => 
     array (
       0 => '9651',
       1 => 'Väljaküla',
     ),
-    48 => 
+    49 => 
     array (
       0 => '9699',
       1 => 'Õlatu küla',
     ),
-    49 => 
+    50 => 
     array (
       0 => '9710',
       1 => 'Õru alevik',
     ),
-    50 => 
+    51 => 
     array (
       0 => '9713',
       1 => 'Õruste küla',
@@ -19757,300 +19619,315 @@ return ["counties" => array (
   array (
     0 => 
     array (
+      0 => '1060',
+      1 => 'Abja-Paluoja linn',
+    ),
+    1 => 
+    array (
       0 => '1061',
       1 => 'Abjaku küla',
     ),
-    1 => 
+    2 => 
     array (
       0 => '1149',
       1 => 'Ainja küla',
     ),
-    2 => 
+    3 => 
     array (
       0 => '1199',
       1 => 'Allaste küla',
     ),
-    3 => 
+    4 => 
     array (
       0 => '1433',
       1 => 'Atika küla',
     ),
-    4 => 
+    5 => 
     array (
       0 => '1625',
       1 => 'Ereste küla',
     ),
-    5 => 
+    6 => 
     array (
       0 => '1749',
       1 => 'Halliste alevik',
     ),
-    6 => 
+    7 => 
     array (
       0 => '1868',
       1 => 'Hirmuküla',
     ),
-    7 => 
+    8 => 
     array (
       0 => '1926',
       1 => 'Hõbemäe küla',
     ),
-    8 => 
+    9 => 
     array (
       0 => '2406',
       1 => 'Kaarli küla',
     ),
-    9 => 
+    10 => 
     array (
       0 => '2628',
       1 => 'Kalvre küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '2634',
       1 => 'Kamara küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '2759',
       1 => 'Karksi küla',
     ),
-    12 => 
+    13 => 
+    array (
+      0 => '2761',
+      1 => 'Karksi-Nuia linn',
+    ),
+    14 => 
     array (
       0 => '3580',
       1 => 'Kulla küla',
     ),
-    13 => 
+    15 => 
     array (
       0 => '3837',
       1 => 'Kõvaküla',
     ),
-    14 => 
+    16 => 
     array (
       0 => '4030',
       1 => 'Laatre küla',
     ),
-    15 => 
+    17 => 
     array (
       0 => '4120',
       1 => 'Lasari küla',
     ),
-    16 => 
+    18 => 
     array (
       0 => '4183',
       1 => 'Leeli küla',
     ),
-    17 => 
+    19 => 
     array (
       0 => '4370',
       1 => 'Lilli küla',
     ),
-    18 => 
+    20 => 
     array (
       0 => '4802',
       1 => 'Maru küla',
     ),
-    19 => 
+    21 => 
     array (
       0 => '4893',
       1 => 'Metsaküla',
     ),
-    20 => 
+    22 => 
     array (
       0 => '4989',
       1 => 'Morna küla',
     ),
-    21 => 
+    23 => 
     array (
       0 => '5020',
       1 => 'Mulgi küla',
     ),
-    22 => 
+    24 => 
     array (
       0 => '5047',
       1 => 'Muri küla',
     ),
-    23 => 
+    25 => 
+    array (
+      0 => '5145',
+      1 => 'Mõisaküla linn',
+    ),
+    26 => 
     array (
       0 => '5178',
       1 => 'Mõõnaste küla',
     ),
-    24 => 
+    27 => 
     array (
       0 => '5349',
       1 => 'Naistevalla küla',
     ),
-    25 => 
+    28 => 
     array (
       0 => '5411',
       1 => 'Niguli küla',
     ),
-    26 => 
+    29 => 
     array (
       0 => '5758',
       1 => 'Oti küla',
     ),
-    27 => 
+    30 => 
     array (
       0 => '6106',
       1 => 'Penuja küla',
     ),
-    28 => 
+    31 => 
     array (
       0 => '6317',
       1 => 'Polli küla',
     ),
-    29 => 
+    32 => 
     array (
       0 => '6335',
       1 => 'Pornuse küla',
     ),
-    30 => 
+    33 => 
     array (
       0 => '6510',
       1 => 'Põlde küla',
     ),
-    31 => 
+    34 => 
     array (
       0 => '6572',
       1 => 'Päidre küla',
     ),
-    32 => 
+    35 => 
     array (
       0 => '6575',
       1 => 'Päigiste küla',
     ),
-    33 => 
+    36 => 
     array (
       0 => '6621',
       1 => 'Pärsi küla',
     ),
-    34 => 
+    37 => 
     array (
       0 => '6641',
       1 => 'Pöögle küla',
     ),
-    35 => 
+    38 => 
     array (
       0 => '6689',
       1 => 'Raamatu küla',
     ),
-    36 => 
+    39 => 
     array (
       0 => '6765',
       1 => 'Raja küla',
     ),
-    37 => 
+    40 => 
     array (
       0 => '7002',
       1 => 'Rimmu küla',
     ),
-    38 => 
+    41 => 
     array (
       0 => '7211',
       1 => 'Mäeküla',
     ),
-    39 => 
+    42 => 
     array (
       0 => '7238',
       1 => 'Räägu küla',
     ),
-    40 => 
+    43 => 
     array (
       0 => '7313',
       1 => 'Saate küla',
     ),
-    41 => 
+    44 => 
     array (
       0 => '7356',
       1 => 'Saksaküla',
     ),
-    42 => 
+    45 => 
     array (
       0 => '7410',
       1 => 'Sammaste küla',
     ),
-    43 => 
+    46 => 
     array (
       0 => '7433',
       1 => 'Sarja küla',
     ),
-    44 => 
+    47 => 
     array (
       0 => '7767',
       1 => 'Sudiste küla',
     ),
-    45 => 
+    48 => 
     array (
       0 => '7825',
       1 => 'Suuga küla',
     ),
-    46 => 
+    49 => 
     array (
       0 => '8240',
       1 => 'Tilla küla',
     ),
-    47 => 
+    50 => 
     array (
       0 => '8310',
       1 => 'Toosi küla',
     ),
-    48 => 
+    51 => 
     array (
       0 => '8398',
       1 => 'Tuhalaane küla',
     ),
-    49 => 
+    52 => 
     array (
       0 => '8593',
       1 => 'Abja-Vanamõisa küla',
     ),
-    50 => 
+    53 => 
     array (
       0 => '8672',
       1 => 'Umbsoo küla',
     ),
-    51 => 
+    54 => 
     array (
       0 => '8701',
       1 => 'Univere küla',
     ),
-    52 => 
+    55 => 
     array (
       0 => '8759',
       1 => 'Uue-Kariste küla',
     ),
-    53 => 
+    56 => 
     array (
       0 => '8816',
       1 => 'Vabamatsi küla',
     ),
-    54 => 
+    57 => 
     array (
       0 => '8984',
       1 => 'Vana-Kariste küla',
     ),
-    55 => 
+    58 => 
     array (
       0 => '9167',
       1 => 'Veelikse küla',
     ),
-    56 => 
+    59 => 
     array (
       0 => '9235',
       1 => 'Veskimäe küla',
     ),
-    57 => 
+    60 => 
     array (
       0 => '9695',
       1 => 'Õisu alevik',
     ),
-    58 => 
+    61 => 
     array (
       0 => '9780',
       1 => 'Äriküla',
     ),
-    59 => 
+    62 => 
     array (
       0 => '9830',
       1 => 'Ülemõisa küla',
@@ -20340,80 +20217,90 @@ return ["counties" => array (
     ),
     56 => 
     array (
+      0 => '7839',
+      1 => 'Suure-Jaani linn',
+    ),
+    57 => 
+    array (
       0 => '7978',
       1 => 'Sürgavere küla',
     ),
-    57 => 
+    58 => 
     array (
       0 => '8030',
       1 => 'Taevere küla',
     ),
-    58 => 
+    59 => 
     array (
       0 => '8251',
       1 => 'Tipu küla',
     ),
-    59 => 
+    60 => 
     array (
       0 => '8566',
       1 => 'Tällevere küla',
     ),
-    60 => 
+    61 => 
     array (
       0 => '8586',
       1 => 'Tääksi küla',
     ),
-    61 => 
+    62 => 
     array (
       0 => '8641',
       1 => 'Uia küla',
     ),
-    62 => 
+    63 => 
     array (
       0 => '8681',
       1 => 'Unakvere küla',
     ),
-    63 => 
+    64 => 
     array (
       0 => '9036',
       1 => 'Vanaveski küla',
     ),
-    64 => 
+    65 => 
     array (
       0 => '9123',
       1 => 'Vastemõisa küla',
     ),
-    65 => 
+    66 => 
     array (
       0 => '9205',
       1 => 'Venevere küla',
     ),
-    66 => 
+    67 => 
     array (
       0 => '9262',
       1 => 'Vihi küla',
     ),
-    67 => 
+    68 => 
+    array (
+      0 => '9500',
+      1 => 'Võhma linn',
+    ),
+    69 => 
     array (
       0 => '9503',
       1 => 'Võhmassaare küla',
     ),
-    68 => 
+    70 => 
     array (
       0 => '9546',
       1 => 'Võivaku küla',
     ),
-    69 => 
+    71 => 
     array (
       0 => '9561',
       1 => 'Võlli küla',
     ),
-    70 => 
+    72 => 
     array (
       0 => '9765',
       1 => 'Ängi küla',
     ),
-    71 => 
+    73 => 
     array (
       0 => '9824',
       1 => 'Ülde küla',
@@ -21081,200 +20968,205 @@ return ["counties" => array (
     ),
     1 => 
     array (
+      0 => '1301',
+      1 => 'Antsla linn',
+    ),
+    2 => 
+    array (
       0 => '1303',
       1 => 'Antsu küla',
     ),
-    2 => 
+    3 => 
     array (
       0 => '1678',
       1 => 'Haabsaare küla',
     ),
-    3 => 
+    4 => 
     array (
       0 => '2242',
       1 => 'Jõepera küla',
     ),
-    4 => 
+    5 => 
     array (
       0 => '2535',
       1 => 'Kaika küla',
     ),
-    5 => 
+    6 => 
     array (
       0 => '2812',
       1 => 'Kassi küla',
     ),
-    6 => 
+    7 => 
     array (
       0 => '3069',
       1 => 'Kikkaoja küla',
     ),
-    7 => 
+    8 => 
     array (
       0 => '3125',
       1 => 'Kirikuküla',
     ),
-    8 => 
+    9 => 
     array (
       0 => '3214',
       1 => 'Kobela alevik',
     ),
-    9 => 
+    10 => 
     array (
       0 => '3287',
       1 => 'Koigu küla',
     ),
-    10 => 
+    11 => 
     array (
       0 => '3355',
       1 => 'Kollino küla',
     ),
-    11 => 
+    12 => 
     array (
       0 => '3486',
       1 => 'Kraavi küla',
     ),
-    12 => 
+    13 => 
     array (
       0 => '3575',
       1 => 'Kuldre küla',
     ),
-    13 => 
+    14 => 
     array (
       0 => '3752',
       1 => 'Kõlbi küla',
     ),
-    14 => 
+    15 => 
     array (
       0 => '4427',
       1 => 'Litsmetsa küla',
     ),
-    15 => 
+    16 => 
     array (
       0 => '4542',
       1 => 'Luhametsa küla',
     ),
-    16 => 
+    17 => 
     array (
       0 => '4564',
       1 => 'Lusti küla',
     ),
-    17 => 
+    18 => 
     array (
       0 => '4565',
       1 => 'Lustimõisa küla',
     ),
-    18 => 
+    19 => 
     array (
       0 => '4689',
       1 => 'Lümatu küla',
     ),
-    19 => 
+    20 => 
     array (
       0 => '4721',
       1 => 'Madise küla',
     ),
-    20 => 
+    21 => 
     array (
       0 => '5234',
       1 => 'Mähkli küla',
     ),
-    21 => 
+    22 => 
     array (
       0 => '5605',
       1 => 'Oe küla',
     ),
-    22 => 
+    23 => 
     array (
       0 => '6150',
       1 => 'Pihleni küla',
     ),
-    23 => 
+    24 => 
     array (
       0 => '6196',
       1 => 'Piisi küla',
     ),
-    24 => 
+    25 => 
     array (
       0 => '7000',
       1 => 'Rimmi küla',
     ),
-    25 => 
+    26 => 
     array (
       0 => '7074',
       1 => 'Roosiku küla',
     ),
-    26 => 
+    27 => 
     array (
       0 => '7102',
       1 => 'Ruhingu küla',
     ),
-    27 => 
+    28 => 
     array (
       0 => '7496',
       1 => 'Savilöövi küla',
     ),
-    28 => 
+    29 => 
     array (
       0 => '7714',
       1 => 'Soome küla',
     ),
-    29 => 
+    30 => 
     array (
       0 => '7933',
       1 => 'Säre küla',
     ),
-    30 => 
+    31 => 
     array (
       0 => '8011',
       1 => 'Taberlaane küla',
     ),
-    31 => 
+    32 => 
     array (
       0 => '8280',
       1 => 'Toku küla',
     ),
-    32 => 
+    33 => 
     array (
       0 => '8378',
       1 => 'Tsooru küla',
     ),
-    33 => 
+    34 => 
     array (
       0 => '8634',
       1 => 'Uhtjärve küla',
     ),
-    34 => 
+    35 => 
     array (
       0 => '8733',
       1 => 'Urvaste küla',
     ),
-    35 => 
+    36 => 
     array (
       0 => '8757',
       1 => 'Uue-Antsla küla',
     ),
-    36 => 
+    37 => 
     array (
       0 => '8801',
       1 => 'Vaabina küla',
     ),
-    37 => 
+    38 => 
     array (
       0 => '8977',
       1 => 'Vana-Antsla alevik',
     ),
-    38 => 
+    39 => 
     array (
       0 => '9290',
       1 => 'Viirapalu küla',
     ),
-    39 => 
+    40 => 
     array (
       0 => '9414',
       1 => 'Visela küla',
     ),
-    40 => 
+    41 => 
     array (
       0 => '9737',
       1 => 'Ähijärve küla',
@@ -22415,7 +22307,7 @@ return ["counties" => array (
     226 => 
     array (
       0 => '7930',
-      1 => 'Sänna küla / Sännä',
+      1 => 'Sänna küla/Sännä',
     ),
     227 => 
     array (
